@@ -1,0 +1,62 @@
+[2017-10-15 20:06:04,704][INFO ][node                     ] [node-0] version[2.4.1], pid[75519], build[c67dc32/2016-09-27T18:57:55Z]
+[2017-10-15 20:06:04,715][INFO ][node                     ] [node-0] initializing ...
+[2017-10-15 20:06:06,772][INFO ][com.floragunn.searchguard.ssl.SearchGuardSSLPlugin] Search Guard 2 plugin not available
+[2017-10-15 20:06:06,786][INFO ][com.floragunn.searchguard.SearchGuardPlugin] Clustername: kirk
+[2017-10-15 20:06:06,787][INFO ][com.floragunn.searchguard.SearchGuardPlugin] Node [node-0] is a transportClient: false/tribeNode: false/tribeNodeClient: false
+[2017-10-15 20:06:06,799][INFO ][plugins                  ] [node-0] modules [reindex, lang-expression, lang-groovy], plugins [search-guard-ssl, search-guard-2], sites []
+[2017-10-15 20:06:06,979][INFO ][env                      ] [node-0] using [1] data paths, mounts [[/ (/dev/sda1)]], net usable_space [656.1mb], net total_space [18.5gb], spins? [possibly], types [ext4]
+[2017-10-15 20:06:06,987][INFO ][env                      ] [node-0] heap size [1015.6mb], compressed ordinary object pointers [true]
+[2017-10-15 20:06:07,214][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] Open SSL not available (this is not an error, we simply fallback to built-in JDK SSL) because of java.lang.ClassNotFoundException: org.apache.tomcat.jni.SSL
+[2017-10-15 20:06:07,216][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.version: 1.8.0_144
+[2017-10-15 20:06:07,219][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.vendor: Oracle Corporation
+[2017-10-15 20:06:07,219][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.vm.specification.version: 1.8
+[2017-10-15 20:06:07,220][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.vm.specification.vendor: Oracle Corporation
+[2017-10-15 20:06:07,220][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.vm.specification.name: Java Virtual Machine Specification
+[2017-10-15 20:06:07,220][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.vm.name: Java HotSpot(TM) 64-Bit Server VM
+[2017-10-15 20:06:07,220][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.vm.vendor: Oracle Corporation
+[2017-10-15 20:06:07,221][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.specification.version: 1.8
+[2017-10-15 20:06:07,221][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.specification.vendor: Oracle Corporation
+[2017-10-15 20:06:07,221][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.specification.name: Java Platform API Specification
+[2017-10-15 20:06:07,221][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] os.name: Linux
+[2017-10-15 20:06:07,221][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] os.arch: amd64
+[2017-10-15 20:06:07,222][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] os.version: 4.10.0-35-generic
+[2017-10-15 20:06:08,192][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] JVM supports the following 57 ciphers for https [TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV, TLS_DH_anon_WITH_AES_128_GCM_SHA256, TLS_DH_anon_WITH_AES_128_CBC_SHA256, TLS_ECDH_anon_WITH_AES_128_CBC_SHA, TLS_DH_anon_WITH_AES_128_CBC_SHA, TLS_ECDH_anon_WITH_3DES_EDE_CBC_SHA, SSL_DH_anon_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_DES_CBC_SHA, SSL_DHE_RSA_WITH_DES_CBC_SHA, SSL_DHE_DSS_WITH_DES_CBC_SHA, SSL_DH_anon_WITH_DES_CBC_SHA, SSL_RSA_EXPORT_WITH_DES40_CBC_SHA, SSL_DHE_RSA_EXPORT_WITH_DES40_CBC_SHA, SSL_DHE_DSS_EXPORT_WITH_DES40_CBC_SHA, SSL_DH_anon_EXPORT_WITH_DES40_CBC_SHA, TLS_RSA_WITH_NULL_SHA256, TLS_ECDHE_ECDSA_WITH_NULL_SHA, TLS_ECDHE_RSA_WITH_NULL_SHA, SSL_RSA_WITH_NULL_SHA, TLS_ECDH_ECDSA_WITH_NULL_SHA, TLS_ECDH_RSA_WITH_NULL_SHA, TLS_ECDH_anon_WITH_NULL_SHA, SSL_RSA_WITH_NULL_MD5, TLS_KRB5_WITH_3DES_EDE_CBC_SHA, TLS_KRB5_WITH_3DES_EDE_CBC_MD5, TLS_KRB5_WITH_DES_CBC_SHA, TLS_KRB5_WITH_DES_CBC_MD5, TLS_KRB5_EXPORT_WITH_DES_CBC_40_SHA, TLS_KRB5_EXPORT_WITH_DES_CBC_40_MD5]
+[2017-10-15 20:06:08,203][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] JVM supports the following 57 ciphers for transport [TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV, TLS_DH_anon_WITH_AES_128_GCM_SHA256, TLS_DH_anon_WITH_AES_128_CBC_SHA256, TLS_ECDH_anon_WITH_AES_128_CBC_SHA, TLS_DH_anon_WITH_AES_128_CBC_SHA, TLS_ECDH_anon_WITH_3DES_EDE_CBC_SHA, SSL_DH_anon_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_DES_CBC_SHA, SSL_DHE_RSA_WITH_DES_CBC_SHA, SSL_DHE_DSS_WITH_DES_CBC_SHA, SSL_DH_anon_WITH_DES_CBC_SHA, SSL_RSA_EXPORT_WITH_DES40_CBC_SHA, SSL_DHE_RSA_EXPORT_WITH_DES40_CBC_SHA, SSL_DHE_DSS_EXPORT_WITH_DES40_CBC_SHA, SSL_DH_anon_EXPORT_WITH_DES40_CBC_SHA, TLS_RSA_WITH_NULL_SHA256, TLS_ECDHE_ECDSA_WITH_NULL_SHA, TLS_ECDHE_RSA_WITH_NULL_SHA, SSL_RSA_WITH_NULL_SHA, TLS_ECDH_ECDSA_WITH_NULL_SHA, TLS_ECDH_RSA_WITH_NULL_SHA, TLS_ECDH_anon_WITH_NULL_SHA, SSL_RSA_WITH_NULL_MD5, TLS_KRB5_WITH_3DES_EDE_CBC_SHA, TLS_KRB5_WITH_3DES_EDE_CBC_MD5, TLS_KRB5_WITH_DES_CBC_SHA, TLS_KRB5_WITH_DES_CBC_MD5, TLS_KRB5_EXPORT_WITH_DES_CBC_40_SHA, TLS_KRB5_EXPORT_WITH_DES_CBC_40_MD5]
+[2017-10-15 20:06:08,208][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] Config directory is /home/elk/esCluster/tlstest/elasticsearch-2.4.1/config/, from there the key- and truststore files are resolved relatively
+[2017-10-15 20:06:08,631][ERROR][bootstrap                ] Exception
+ElasticsearchException[searchguard.ssl.transport.keystore_filepath must be set if transport ssl is reqested.]
+	at com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore.initSSLConfig(DefaultSearchGuardKeyStore.java:203)
+	at com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore.<init>(DefaultSearchGuardKeyStore.java:154)
+	at com.floragunn.searchguard.ssl.SearchGuardSSLModule.<init>(SearchGuardSSLModule.java:40)
+	at com.floragunn.searchguard.ssl.SearchGuardSSLPlugin.nodeModules(SearchGuardSSLPlugin.java:126)
+	at org.elasticsearch.plugins.PluginsService.nodeModules(PluginsService.java:263)
+	at org.elasticsearch.node.Node.<init>(Node.java:179)
+	at org.elasticsearch.node.Node.<init>(Node.java:140)
+	at org.elasticsearch.node.NodeBuilder.build(NodeBuilder.java:143)
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:194)
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:286)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:35)
+[2017-10-15 20:06:49,469][INFO ][node                     ] [node-0] version[2.4.1], pid[75565], build[c67dc32/2016-09-27T18:57:55Z]
+[2017-10-15 20:06:49,470][INFO ][node                     ] [node-0] initializing ...
+[2017-10-15 20:06:50,925][INFO ][plugins                  ] [node-0] modules [reindex, lang-expression, lang-groovy], plugins [], sites []
+[2017-10-15 20:06:50,963][INFO ][env                      ] [node-0] using [1] data paths, mounts [[/ (/dev/sda1)]], net usable_space [656.1mb], net total_space [18.5gb], spins? [possibly], types [ext4]
+[2017-10-15 20:06:50,964][INFO ][env                      ] [node-0] heap size [1015.6mb], compressed ordinary object pointers [true]
+[2017-10-15 20:06:58,151][INFO ][node                     ] [node-0] initialized
+[2017-10-15 20:06:58,151][INFO ][node                     ] [node-0] starting ...
+[2017-10-15 20:06:58,536][INFO ][transport                ] [node-0] publish_address {192.168.183.131:9300}, bound_addresses {[::]:9300}
+[2017-10-15 20:06:58,564][INFO ][discovery                ] [node-0] kirk/IJS7B1-LQ9OM2QVQ6xELHw
+[2017-10-15 20:07:01,781][INFO ][cluster.service          ] [node-0] new_master {node-0}{IJS7B1-LQ9OM2QVQ6xELHw}{192.168.183.131}{192.168.183.131:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2017-10-15 20:07:01,856][INFO ][http                     ] [node-0] publish_address {192.168.183.131:9200}, bound_addresses {[::]:9200}
+[2017-10-15 20:07:01,859][INFO ][node                     ] [node-0] started
+[2017-10-15 20:07:02,142][INFO ][gateway                  ] [node-0] recovered [1] indices into cluster_state
+[2017-10-15 20:07:03,872][INFO ][cluster.routing.allocation] [node-0] Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[searchguard][0]] ...]).
+[2017-10-15 20:07:31,877][WARN ][cluster.routing.allocation.decider] [node-0] high disk watermark [90%] exceeded on [IJS7B1-LQ9OM2QVQ6xELHw][node-0][/home/elk/esCluster/tlstest/elasticsearch-2.4.1/data/kirk/nodes/0] free: 656.1mb[3.4%], shards will be relocated away from this node
+[2017-10-15 20:07:31,895][INFO ][cluster.routing.allocation.decider] [node-0] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2017-10-15 20:08:01,962][WARN ][cluster.routing.allocation.decider] [node-0] high disk watermark [90%] exceeded on [IJS7B1-LQ9OM2QVQ6xELHw][node-0][/home/elk/esCluster/tlstest/elasticsearch-2.4.1/data/kirk/nodes/0] free: 656.1mb[3.4%], shards will be relocated away from this node
+[2017-10-15 20:08:31,970][WARN ][cluster.routing.allocation.decider] [node-0] high disk watermark [90%] exceeded on [IJS7B1-LQ9OM2QVQ6xELHw][node-0][/home/elk/esCluster/tlstest/elasticsearch-2.4.1/data/kirk/nodes/0] free: 656.1mb[3.4%], shards will be relocated away from this node
+[2017-10-15 20:08:31,979][INFO ][cluster.routing.allocation.decider] [node-0] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2017-10-15 20:09:02,017][WARN ][cluster.routing.allocation.decider] [node-0] high disk watermark [90%] exceeded on [IJS7B1-LQ9OM2QVQ6xELHw][node-0][/home/elk/esCluster/tlstest/elasticsearch-2.4.1/data/kirk/nodes/0] free: 656.1mb[3.4%], shards will be relocated away from this node
+[2017-10-15 20:09:02,736][INFO ][node                     ] [node-0] stopping ...
+[2017-10-15 20:09:02,842][INFO ][node                     ] [node-0] stopped
+[2017-10-15 20:09:02,842][INFO ][node                     ] [node-0] closing ...
+[2017-10-15 20:09:02,864][INFO ][node                     ] [node-0] closed

@@ -1,0 +1,1110 @@
+[2017-09-19 15:28:58,326][INFO ][node                     ] [node-0] version[2.4.1], pid[28072], build[c67dc32/2016-09-27T18:57:55Z]
+[2017-09-19 15:28:58,328][INFO ][node                     ] [node-0] initializing ...
+[2017-09-19 15:28:59,839][INFO ][com.floragunn.searchguard.ssl.SearchGuardSSLPlugin] Search Guard 2 plugin also available
+[2017-09-19 15:28:59,848][INFO ][com.floragunn.searchguard.SearchGuardPlugin] Clustername: kirk
+[2017-09-19 15:28:59,848][INFO ][com.floragunn.searchguard.SearchGuardPlugin] Node [node-0] is a transportClient: false/tribeNode: false/tribeNodeClient: false
+[2017-09-19 15:28:59,875][INFO ][plugins                  ] [node-0] modules [reindex, lang-expression, lang-groovy], plugins [search-guard-ssl, search-guard-2], sites []
+[2017-09-19 15:28:59,975][INFO ][env                      ] [node-0] using [1] data paths, mounts [[/ (/dev/sda1)]], net usable_space [403.9gb], net total_space [450.4gb], spins? [possibly], types [ext4]
+[2017-09-19 15:28:59,976][INFO ][env                      ] [node-0] heap size [1007.3mb], compressed ordinary object pointers [true]
+[2017-09-19 15:29:00,190][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] Open SSL not available (this is not an error, we simply fallback to built-in JDK SSL) because of java.lang.ClassNotFoundException: org.apache.tomcat.jni.SSL
+[2017-09-19 15:29:00,190][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.version: 1.8.0_131
+[2017-09-19 15:29:00,191][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.vendor: Oracle Corporation
+[2017-09-19 15:29:00,191][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.vm.specification.version: 1.8
+[2017-09-19 15:29:00,191][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.vm.specification.vendor: Oracle Corporation
+[2017-09-19 15:29:00,191][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.vm.specification.name: Java Virtual Machine Specification
+[2017-09-19 15:29:00,191][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.vm.name: OpenJDK 64-Bit Server VM
+[2017-09-19 15:29:00,191][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.vm.vendor: Oracle Corporation
+[2017-09-19 15:29:00,191][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.specification.version: 1.8
+[2017-09-19 15:29:00,191][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.specification.vendor: Oracle Corporation
+[2017-09-19 15:29:00,191][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.specification.name: Java Platform API Specification
+[2017-09-19 15:29:00,191][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] os.name: Linux
+[2017-09-19 15:29:00,191][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] os.arch: amd64
+[2017-09-19 15:29:00,192][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] os.version: 4.4.0-93-generic
+[2017-09-19 15:29:00,553][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] JVM supports the following 82 ciphers for https [TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV, TLS_DH_anon_WITH_AES_256_GCM_SHA384, TLS_DH_anon_WITH_AES_128_GCM_SHA256, TLS_DH_anon_WITH_AES_256_CBC_SHA256, TLS_ECDH_anon_WITH_AES_256_CBC_SHA, TLS_DH_anon_WITH_AES_256_CBC_SHA, TLS_DH_anon_WITH_AES_128_CBC_SHA256, TLS_ECDH_anon_WITH_AES_128_CBC_SHA, TLS_DH_anon_WITH_AES_128_CBC_SHA, TLS_ECDH_anon_WITH_3DES_EDE_CBC_SHA, SSL_DH_anon_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_DES_CBC_SHA, SSL_DHE_RSA_WITH_DES_CBC_SHA, SSL_DHE_DSS_WITH_DES_CBC_SHA, SSL_DH_anon_WITH_DES_CBC_SHA, SSL_RSA_EXPORT_WITH_DES40_CBC_SHA, SSL_DHE_RSA_EXPORT_WITH_DES40_CBC_SHA, SSL_DHE_DSS_EXPORT_WITH_DES40_CBC_SHA, SSL_DH_anon_EXPORT_WITH_DES40_CBC_SHA, TLS_RSA_WITH_NULL_SHA256, TLS_ECDHE_ECDSA_WITH_NULL_SHA, TLS_ECDHE_RSA_WITH_NULL_SHA, SSL_RSA_WITH_NULL_SHA, TLS_ECDH_ECDSA_WITH_NULL_SHA, TLS_ECDH_RSA_WITH_NULL_SHA, TLS_ECDH_anon_WITH_NULL_SHA, SSL_RSA_WITH_NULL_MD5, TLS_KRB5_WITH_3DES_EDE_CBC_SHA, TLS_KRB5_WITH_3DES_EDE_CBC_MD5, TLS_KRB5_WITH_DES_CBC_SHA, TLS_KRB5_WITH_DES_CBC_MD5, TLS_KRB5_EXPORT_WITH_DES_CBC_40_SHA, TLS_KRB5_EXPORT_WITH_DES_CBC_40_MD5]
+[2017-09-19 15:29:00,559][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] JVM supports the following 82 ciphers for transport [TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV, TLS_DH_anon_WITH_AES_256_GCM_SHA384, TLS_DH_anon_WITH_AES_128_GCM_SHA256, TLS_DH_anon_WITH_AES_256_CBC_SHA256, TLS_ECDH_anon_WITH_AES_256_CBC_SHA, TLS_DH_anon_WITH_AES_256_CBC_SHA, TLS_DH_anon_WITH_AES_128_CBC_SHA256, TLS_ECDH_anon_WITH_AES_128_CBC_SHA, TLS_DH_anon_WITH_AES_128_CBC_SHA, TLS_ECDH_anon_WITH_3DES_EDE_CBC_SHA, SSL_DH_anon_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_DES_CBC_SHA, SSL_DHE_RSA_WITH_DES_CBC_SHA, SSL_DHE_DSS_WITH_DES_CBC_SHA, SSL_DH_anon_WITH_DES_CBC_SHA, SSL_RSA_EXPORT_WITH_DES40_CBC_SHA, SSL_DHE_RSA_EXPORT_WITH_DES40_CBC_SHA, SSL_DHE_DSS_EXPORT_WITH_DES40_CBC_SHA, SSL_DH_anon_EXPORT_WITH_DES40_CBC_SHA, TLS_RSA_WITH_NULL_SHA256, TLS_ECDHE_ECDSA_WITH_NULL_SHA, TLS_ECDHE_RSA_WITH_NULL_SHA, SSL_RSA_WITH_NULL_SHA, TLS_ECDH_ECDSA_WITH_NULL_SHA, TLS_ECDH_RSA_WITH_NULL_SHA, TLS_ECDH_anon_WITH_NULL_SHA, SSL_RSA_WITH_NULL_MD5, TLS_KRB5_WITH_3DES_EDE_CBC_SHA, TLS_KRB5_WITH_3DES_EDE_CBC_MD5, TLS_KRB5_WITH_DES_CBC_SHA, TLS_KRB5_WITH_DES_CBC_MD5, TLS_KRB5_EXPORT_WITH_DES_CBC_40_SHA, TLS_KRB5_EXPORT_WITH_DES_CBC_40_MD5]
+[2017-09-19 15:29:00,560][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] Config directory is /home/lxm/tlstest/elasticsearch-2.4.1/config/, from there the key- and truststore files are resolved relatively
+[2017-09-19 15:29:00,670][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] sslTransportClientProvider:JDK with ciphers [TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256]
+[2017-09-19 15:29:00,670][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] sslTransportServerProvider:JDK with ciphers [TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256]
+[2017-09-19 15:29:00,670][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] sslHTTPProvider:null with ciphers []
+[2017-09-19 15:29:00,671][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] sslTransport protocols [TLSv1.2, TLSv1.1]
+[2017-09-19 15:29:00,671][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] sslHTTP protocols [TLSv1.2, TLSv1.1]
+[2017-09-19 15:29:01,459][INFO ][com.floragunn.searchguard.configuration.ConfigurationModule] FLS/DLS valve not bound (noop)
+[2017-09-19 15:29:01,460][INFO ][com.floragunn.searchguard.configuration.ConfigurationModule] Privileges interceptor not bound (noop)
+[2017-09-19 15:29:01,463][INFO ][com.floragunn.searchguard.auditlog.AuditLogModule] Auditlog not available
+[2017-09-19 15:29:01,605][INFO ][transport                ] [node-0] Using [com.floragunn.searchguard.transport.SearchGuardTransportService] as transport service, overridden by [search-guard2]
+[2017-09-19 15:29:01,606][INFO ][transport                ] [node-0] Using [com.floragunn.searchguard.ssl.transport.SearchGuardSSLNettyTransport] as transport, overridden by [search-guard-ssl]
+[2017-09-19 15:29:04,575][INFO ][node                     ] [node-0] initialized
+[2017-09-19 15:29:04,575][INFO ][node                     ] [node-0] starting ...
+[2017-09-19 15:29:04,784][INFO ][com.floragunn.searchguard.transport.SearchGuardTransportService] [node-0] publish_address {10.134.102.140:9300}, bound_addresses {[::]:9300}
+[2017-09-19 15:29:04,846][INFO ][com.floragunn.searchguard.action.configupdate.TransportConfigUpdateAction] [node-0] Check if searchguard index exists ...
+[2017-09-19 15:29:04,853][DEBUG][action.admin.indices.exists.indices] [node-0] no known master node, scheduling a retry
+[2017-09-19 15:29:04,860][INFO ][discovery                ] [node-0] kirk/bzoXwoQQSEGkHuAWb_bkcw
+[2017-09-19 15:29:08,097][WARN ][netty.channel.DefaultChannelPipeline] An exception was thrown by a user handler while handling an exception event ([id: 0x46c40140, /0:0:0:0:0:0:0:1:35246 => /0:0:0:0:0:0:0:1:9300] EXCEPTION: java.io.IOException: 连接被对方重设)
+java.security.AccessControlException: access denied ("java.lang.RuntimePermission" "accessClassInPackage.sun.nio.ch")
+	at java.security.AccessControlContext.checkPermission(AccessControlContext.java:472)
+	at java.security.AccessController.checkPermission(AccessController.java:884)
+	at java.lang.SecurityManager.checkPermission(SecurityManager.java:549)
+	at java.lang.SecurityManager.checkPackageAccess(SecurityManager.java:1564)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:315)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.jboss.netty.handler.ssl.SslHandler.ignoreException(SslHandler.java:674)
+	at org.jboss.netty.handler.ssl.SslHandler.exceptionCaught(SslHandler.java:620)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:112)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireExceptionCaught(Channels.java:525)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:74)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2017-09-19 15:29:08,102][INFO ][cluster.service          ] [node-0] new_master {node-0}{bzoXwoQQSEGkHuAWb_bkcw}{10.134.102.140}{10.134.102.140:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2017-09-19 15:29:08,141][INFO ][http                     ] [node-0] publish_address {10.134.102.140:9200}, bound_addresses {[::]:9200}
+[2017-09-19 15:29:08,141][INFO ][node                     ] [node-0] started
+[2017-09-19 15:29:08,362][INFO ][gateway                  ] [node-0] recovered [1] indices into cluster_state
+[2017-09-19 15:29:09,209][INFO ][cluster.routing.allocation] [node-0] Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[searchguard][0]] ...]).
+[2017-09-19 15:29:09,335][INFO ][com.floragunn.searchguard.action.configupdate.TransportConfigUpdateAction] [node-0] Node 'node-0' initialized
+[2017-09-19 15:29:30,575][INFO ][node                     ] [node-0] stopping ...
+[2017-09-19 15:29:30,624][INFO ][node                     ] [node-0] stopped
+[2017-09-19 15:29:30,624][INFO ][node                     ] [node-0] closing ...
+[2017-09-19 15:29:30,630][INFO ][node                     ] [node-0] closed
+[2017-09-19 15:29:36,883][INFO ][node                     ] [node-0] version[2.4.1], pid[28193], build[c67dc32/2016-09-27T18:57:55Z]
+[2017-09-19 15:29:36,884][INFO ][node                     ] [node-0] initializing ...
+[2017-09-19 15:29:37,609][INFO ][com.floragunn.searchguard.ssl.SearchGuardSSLPlugin] Search Guard 2 plugin also available
+[2017-09-19 15:29:37,616][INFO ][com.floragunn.searchguard.SearchGuardPlugin] Clustername: kirk
+[2017-09-19 15:29:37,616][INFO ][com.floragunn.searchguard.SearchGuardPlugin] Node [node-0] is a transportClient: false/tribeNode: false/tribeNodeClient: false
+[2017-09-19 15:29:37,618][INFO ][plugins                  ] [node-0] modules [reindex, lang-expression, lang-groovy], plugins [search-guard-ssl, search-guard-2], sites []
+[2017-09-19 15:29:37,654][INFO ][env                      ] [node-0] using [1] data paths, mounts [[/ (/dev/sda1)]], net usable_space [403.9gb], net total_space [450.4gb], spins? [possibly], types [ext4]
+[2017-09-19 15:29:37,654][INFO ][env                      ] [node-0] heap size [1007.3mb], compressed ordinary object pointers [true]
+[2017-09-19 15:29:37,707][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] Open SSL not available (this is not an error, we simply fallback to built-in JDK SSL) because of java.lang.ClassNotFoundException: org.apache.tomcat.jni.SSL
+[2017-09-19 15:29:37,708][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.version: 1.8.0_131
+[2017-09-19 15:29:37,708][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.vendor: Oracle Corporation
+[2017-09-19 15:29:37,708][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.vm.specification.version: 1.8
+[2017-09-19 15:29:37,708][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.vm.specification.vendor: Oracle Corporation
+[2017-09-19 15:29:37,708][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.vm.specification.name: Java Virtual Machine Specification
+[2017-09-19 15:29:37,708][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.vm.name: OpenJDK 64-Bit Server VM
+[2017-09-19 15:29:37,708][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.vm.vendor: Oracle Corporation
+[2017-09-19 15:29:37,708][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.specification.version: 1.8
+[2017-09-19 15:29:37,708][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.specification.vendor: Oracle Corporation
+[2017-09-19 15:29:37,708][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.specification.name: Java Platform API Specification
+[2017-09-19 15:29:37,708][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] os.name: Linux
+[2017-09-19 15:29:37,708][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] os.arch: amd64
+[2017-09-19 15:29:37,708][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] os.version: 4.4.0-93-generic
+[2017-09-19 15:29:37,877][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] JVM supports the following 82 ciphers for https [TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV, TLS_DH_anon_WITH_AES_256_GCM_SHA384, TLS_DH_anon_WITH_AES_128_GCM_SHA256, TLS_DH_anon_WITH_AES_256_CBC_SHA256, TLS_ECDH_anon_WITH_AES_256_CBC_SHA, TLS_DH_anon_WITH_AES_256_CBC_SHA, TLS_DH_anon_WITH_AES_128_CBC_SHA256, TLS_ECDH_anon_WITH_AES_128_CBC_SHA, TLS_DH_anon_WITH_AES_128_CBC_SHA, TLS_ECDH_anon_WITH_3DES_EDE_CBC_SHA, SSL_DH_anon_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_DES_CBC_SHA, SSL_DHE_RSA_WITH_DES_CBC_SHA, SSL_DHE_DSS_WITH_DES_CBC_SHA, SSL_DH_anon_WITH_DES_CBC_SHA, SSL_RSA_EXPORT_WITH_DES40_CBC_SHA, SSL_DHE_RSA_EXPORT_WITH_DES40_CBC_SHA, SSL_DHE_DSS_EXPORT_WITH_DES40_CBC_SHA, SSL_DH_anon_EXPORT_WITH_DES40_CBC_SHA, TLS_RSA_WITH_NULL_SHA256, TLS_ECDHE_ECDSA_WITH_NULL_SHA, TLS_ECDHE_RSA_WITH_NULL_SHA, SSL_RSA_WITH_NULL_SHA, TLS_ECDH_ECDSA_WITH_NULL_SHA, TLS_ECDH_RSA_WITH_NULL_SHA, TLS_ECDH_anon_WITH_NULL_SHA, SSL_RSA_WITH_NULL_MD5, TLS_KRB5_WITH_3DES_EDE_CBC_SHA, TLS_KRB5_WITH_3DES_EDE_CBC_MD5, TLS_KRB5_WITH_DES_CBC_SHA, TLS_KRB5_WITH_DES_CBC_MD5, TLS_KRB5_EXPORT_WITH_DES_CBC_40_SHA, TLS_KRB5_EXPORT_WITH_DES_CBC_40_MD5]
+[2017-09-19 15:29:37,885][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] JVM supports the following 82 ciphers for transport [TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV, TLS_DH_anon_WITH_AES_256_GCM_SHA384, TLS_DH_anon_WITH_AES_128_GCM_SHA256, TLS_DH_anon_WITH_AES_256_CBC_SHA256, TLS_ECDH_anon_WITH_AES_256_CBC_SHA, TLS_DH_anon_WITH_AES_256_CBC_SHA, TLS_DH_anon_WITH_AES_128_CBC_SHA256, TLS_ECDH_anon_WITH_AES_128_CBC_SHA, TLS_DH_anon_WITH_AES_128_CBC_SHA, TLS_ECDH_anon_WITH_3DES_EDE_CBC_SHA, SSL_DH_anon_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_DES_CBC_SHA, SSL_DHE_RSA_WITH_DES_CBC_SHA, SSL_DHE_DSS_WITH_DES_CBC_SHA, SSL_DH_anon_WITH_DES_CBC_SHA, SSL_RSA_EXPORT_WITH_DES40_CBC_SHA, SSL_DHE_RSA_EXPORT_WITH_DES40_CBC_SHA, SSL_DHE_DSS_EXPORT_WITH_DES40_CBC_SHA, SSL_DH_anon_EXPORT_WITH_DES40_CBC_SHA, TLS_RSA_WITH_NULL_SHA256, TLS_ECDHE_ECDSA_WITH_NULL_SHA, TLS_ECDHE_RSA_WITH_NULL_SHA, SSL_RSA_WITH_NULL_SHA, TLS_ECDH_ECDSA_WITH_NULL_SHA, TLS_ECDH_RSA_WITH_NULL_SHA, TLS_ECDH_anon_WITH_NULL_SHA, SSL_RSA_WITH_NULL_MD5, TLS_KRB5_WITH_3DES_EDE_CBC_SHA, TLS_KRB5_WITH_3DES_EDE_CBC_MD5, TLS_KRB5_WITH_DES_CBC_SHA, TLS_KRB5_WITH_DES_CBC_MD5, TLS_KRB5_EXPORT_WITH_DES_CBC_40_SHA, TLS_KRB5_EXPORT_WITH_DES_CBC_40_MD5]
+[2017-09-19 15:29:37,886][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] Config directory is /home/lxm/tlstest/elasticsearch-2.4.1/config/, from there the key- and truststore files are resolved relatively
+[2017-09-19 15:29:37,942][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] sslTransportClientProvider:JDK with ciphers [TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256]
+[2017-09-19 15:29:37,943][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] sslTransportServerProvider:JDK with ciphers [TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256]
+[2017-09-19 15:29:37,943][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] sslHTTPProvider:null with ciphers []
+[2017-09-19 15:29:37,943][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] sslTransport protocols [TLSv1.2, TLSv1.1]
+[2017-09-19 15:29:37,943][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] sslHTTP protocols [TLSv1.2, TLSv1.1]
+[2017-09-19 15:29:38,244][INFO ][com.floragunn.searchguard.configuration.ConfigurationModule] FLS/DLS valve not bound (noop)
+[2017-09-19 15:29:38,245][INFO ][com.floragunn.searchguard.configuration.ConfigurationModule] Privileges interceptor not bound (noop)
+[2017-09-19 15:29:38,248][INFO ][com.floragunn.searchguard.auditlog.AuditLogModule] Auditlog not available
+[2017-09-19 15:29:38,347][INFO ][transport                ] [node-0] Using [com.floragunn.searchguard.transport.SearchGuardTransportService] as transport service, overridden by [search-guard2]
+[2017-09-19 15:29:38,348][INFO ][transport                ] [node-0] Using [com.floragunn.searchguard.ssl.transport.SearchGuardSSLNettyTransport] as transport, overridden by [search-guard-ssl]
+[2017-09-19 15:29:40,423][INFO ][node                     ] [node-0] initialized
+[2017-09-19 15:29:40,423][INFO ][node                     ] [node-0] starting ...
+[2017-09-19 15:29:40,566][INFO ][com.floragunn.searchguard.transport.SearchGuardTransportService] [node-0] publish_address {10.134.102.140:9300}, bound_addresses {[::]:9300}
+[2017-09-19 15:29:40,571][INFO ][com.floragunn.searchguard.action.configupdate.TransportConfigUpdateAction] [node-0] Check if searchguard index exists ...
+[2017-09-19 15:29:40,584][DEBUG][action.admin.indices.exists.indices] [node-0] no known master node, scheduling a retry
+[2017-09-19 15:29:40,591][INFO ][discovery                ] [node-0] kirk/C8Tp9uRdT5G4muZ4eFGC2w
+[2017-09-19 15:29:43,736][INFO ][cluster.service          ] [node-0] new_master {node-0}{C8Tp9uRdT5G4muZ4eFGC2w}{10.134.102.140}{10.134.102.140:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2017-09-19 15:29:43,791][INFO ][http                     ] [node-0] publish_address {10.134.102.140:9200}, bound_addresses {[::]:9200}
+[2017-09-19 15:29:43,791][INFO ][node                     ] [node-0] started
+[2017-09-19 15:29:44,151][INFO ][gateway                  ] [node-0] recovered [1] indices into cluster_state
+[2017-09-19 15:29:44,785][INFO ][cluster.routing.allocation] [node-0] Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[searchguard][0]] ...]).
+[2017-09-19 15:29:44,902][INFO ][com.floragunn.searchguard.action.configupdate.TransportConfigUpdateAction] [node-0] Node 'node-0' initialized
+[2017-09-19 15:36:59,032][INFO ][node                     ] [node-0] stopping ...
+[2017-09-19 15:36:59,209][INFO ][node                     ] [node-0] stopped
+[2017-09-19 15:36:59,209][INFO ][node                     ] [node-0] closing ...
+[2017-09-19 15:36:59,214][INFO ][node                     ] [node-0] closed
+[2017-09-19 15:37:01,355][INFO ][node                     ] [node-0] version[2.4.1], pid[28885], build[c67dc32/2016-09-27T18:57:55Z]
+[2017-09-19 15:37:01,355][INFO ][node                     ] [node-0] initializing ...
+[2017-09-19 15:37:02,114][INFO ][com.floragunn.searchguard.ssl.SearchGuardSSLPlugin] Search Guard 2 plugin also available
+[2017-09-19 15:37:02,120][INFO ][com.floragunn.searchguard.SearchGuardPlugin] Clustername: kirk
+[2017-09-19 15:37:02,121][INFO ][com.floragunn.searchguard.SearchGuardPlugin] Node [node-0] is a transportClient: false/tribeNode: false/tribeNodeClient: false
+[2017-09-19 15:37:02,122][INFO ][plugins                  ] [node-0] modules [reindex, lang-expression, lang-groovy], plugins [search-guard-ssl, search-guard-2], sites []
+[2017-09-19 15:37:02,156][INFO ][env                      ] [node-0] using [1] data paths, mounts [[/ (/dev/sda1)]], net usable_space [403.9gb], net total_space [450.4gb], spins? [possibly], types [ext4]
+[2017-09-19 15:37:02,156][INFO ][env                      ] [node-0] heap size [1007.3mb], compressed ordinary object pointers [true]
+[2017-09-19 15:37:02,208][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] Open SSL not available (this is not an error, we simply fallback to built-in JDK SSL) because of java.lang.ClassNotFoundException: org.apache.tomcat.jni.SSL
+[2017-09-19 15:37:02,208][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.version: 1.8.0_131
+[2017-09-19 15:37:02,208][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.vendor: Oracle Corporation
+[2017-09-19 15:37:02,208][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.vm.specification.version: 1.8
+[2017-09-19 15:37:02,208][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.vm.specification.vendor: Oracle Corporation
+[2017-09-19 15:37:02,209][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.vm.specification.name: Java Virtual Machine Specification
+[2017-09-19 15:37:02,209][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.vm.name: OpenJDK 64-Bit Server VM
+[2017-09-19 15:37:02,209][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.vm.vendor: Oracle Corporation
+[2017-09-19 15:37:02,209][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.specification.version: 1.8
+[2017-09-19 15:37:02,209][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.specification.vendor: Oracle Corporation
+[2017-09-19 15:37:02,209][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.specification.name: Java Platform API Specification
+[2017-09-19 15:37:02,209][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] os.name: Linux
+[2017-09-19 15:37:02,209][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] os.arch: amd64
+[2017-09-19 15:37:02,209][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] os.version: 4.4.0-93-generic
+[2017-09-19 15:37:02,379][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] JVM supports the following 82 ciphers for https [TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV, TLS_DH_anon_WITH_AES_256_GCM_SHA384, TLS_DH_anon_WITH_AES_128_GCM_SHA256, TLS_DH_anon_WITH_AES_256_CBC_SHA256, TLS_ECDH_anon_WITH_AES_256_CBC_SHA, TLS_DH_anon_WITH_AES_256_CBC_SHA, TLS_DH_anon_WITH_AES_128_CBC_SHA256, TLS_ECDH_anon_WITH_AES_128_CBC_SHA, TLS_DH_anon_WITH_AES_128_CBC_SHA, TLS_ECDH_anon_WITH_3DES_EDE_CBC_SHA, SSL_DH_anon_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_DES_CBC_SHA, SSL_DHE_RSA_WITH_DES_CBC_SHA, SSL_DHE_DSS_WITH_DES_CBC_SHA, SSL_DH_anon_WITH_DES_CBC_SHA, SSL_RSA_EXPORT_WITH_DES40_CBC_SHA, SSL_DHE_RSA_EXPORT_WITH_DES40_CBC_SHA, SSL_DHE_DSS_EXPORT_WITH_DES40_CBC_SHA, SSL_DH_anon_EXPORT_WITH_DES40_CBC_SHA, TLS_RSA_WITH_NULL_SHA256, TLS_ECDHE_ECDSA_WITH_NULL_SHA, TLS_ECDHE_RSA_WITH_NULL_SHA, SSL_RSA_WITH_NULL_SHA, TLS_ECDH_ECDSA_WITH_NULL_SHA, TLS_ECDH_RSA_WITH_NULL_SHA, TLS_ECDH_anon_WITH_NULL_SHA, SSL_RSA_WITH_NULL_MD5, TLS_KRB5_WITH_3DES_EDE_CBC_SHA, TLS_KRB5_WITH_3DES_EDE_CBC_MD5, TLS_KRB5_WITH_DES_CBC_SHA, TLS_KRB5_WITH_DES_CBC_MD5, TLS_KRB5_EXPORT_WITH_DES_CBC_40_SHA, TLS_KRB5_EXPORT_WITH_DES_CBC_40_MD5]
+[2017-09-19 15:37:02,385][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] JVM supports the following 82 ciphers for transport [TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV, TLS_DH_anon_WITH_AES_256_GCM_SHA384, TLS_DH_anon_WITH_AES_128_GCM_SHA256, TLS_DH_anon_WITH_AES_256_CBC_SHA256, TLS_ECDH_anon_WITH_AES_256_CBC_SHA, TLS_DH_anon_WITH_AES_256_CBC_SHA, TLS_DH_anon_WITH_AES_128_CBC_SHA256, TLS_ECDH_anon_WITH_AES_128_CBC_SHA, TLS_DH_anon_WITH_AES_128_CBC_SHA, TLS_ECDH_anon_WITH_3DES_EDE_CBC_SHA, SSL_DH_anon_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_DES_CBC_SHA, SSL_DHE_RSA_WITH_DES_CBC_SHA, SSL_DHE_DSS_WITH_DES_CBC_SHA, SSL_DH_anon_WITH_DES_CBC_SHA, SSL_RSA_EXPORT_WITH_DES40_CBC_SHA, SSL_DHE_RSA_EXPORT_WITH_DES40_CBC_SHA, SSL_DHE_DSS_EXPORT_WITH_DES40_CBC_SHA, SSL_DH_anon_EXPORT_WITH_DES40_CBC_SHA, TLS_RSA_WITH_NULL_SHA256, TLS_ECDHE_ECDSA_WITH_NULL_SHA, TLS_ECDHE_RSA_WITH_NULL_SHA, SSL_RSA_WITH_NULL_SHA, TLS_ECDH_ECDSA_WITH_NULL_SHA, TLS_ECDH_RSA_WITH_NULL_SHA, TLS_ECDH_anon_WITH_NULL_SHA, SSL_RSA_WITH_NULL_MD5, TLS_KRB5_WITH_3DES_EDE_CBC_SHA, TLS_KRB5_WITH_3DES_EDE_CBC_MD5, TLS_KRB5_WITH_DES_CBC_SHA, TLS_KRB5_WITH_DES_CBC_MD5, TLS_KRB5_EXPORT_WITH_DES_CBC_40_SHA, TLS_KRB5_EXPORT_WITH_DES_CBC_40_MD5]
+[2017-09-19 15:37:02,386][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] Config directory is /home/lxm/tlstest/elasticsearch-2.4.1/config/, from there the key- and truststore files are resolved relatively
+[2017-09-19 15:37:02,425][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] sslTransportClientProvider:JDK with ciphers [TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256]
+[2017-09-19 15:37:02,425][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] sslTransportServerProvider:JDK with ciphers [TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256]
+[2017-09-19 15:37:02,425][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] sslHTTPProvider:null with ciphers []
+[2017-09-19 15:37:02,425][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] sslTransport protocols [TLSv1.2, TLSv1.1]
+[2017-09-19 15:37:02,425][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] sslHTTP protocols [TLSv1.2, TLSv1.1]
+[2017-09-19 15:37:02,735][INFO ][com.floragunn.searchguard.configuration.ConfigurationModule] FLS/DLS valve not bound (noop)
+[2017-09-19 15:37:02,736][INFO ][com.floragunn.searchguard.configuration.ConfigurationModule] Privileges interceptor not bound (noop)
+[2017-09-19 15:37:02,739][INFO ][com.floragunn.searchguard.auditlog.AuditLogModule] Auditlog not available
+[2017-09-19 15:37:02,836][INFO ][transport                ] [node-0] Using [com.floragunn.searchguard.transport.SearchGuardTransportService] as transport service, overridden by [search-guard2]
+[2017-09-19 15:37:02,836][INFO ][transport                ] [node-0] Using [com.floragunn.searchguard.ssl.transport.SearchGuardSSLNettyTransport] as transport, overridden by [search-guard-ssl]
+[2017-09-19 15:37:04,988][INFO ][node                     ] [node-0] initialized
+[2017-09-19 15:37:04,988][INFO ][node                     ] [node-0] starting ...
+[2017-09-19 15:37:05,079][INFO ][com.floragunn.searchguard.transport.SearchGuardTransportService] [node-0] publish_address {10.134.102.140:9300}, bound_addresses {[::]:9300}
+[2017-09-19 15:37:05,084][INFO ][com.floragunn.searchguard.action.configupdate.TransportConfigUpdateAction] [node-0] Check if searchguard index exists ...
+[2017-09-19 15:37:05,093][DEBUG][action.admin.indices.exists.indices] [node-0] no known master node, scheduling a retry
+[2017-09-19 15:37:05,102][INFO ][discovery                ] [node-0] kirk/pl9mgCS2SHG_Y1H0ru6Jug
+[2017-09-19 15:37:08,258][WARN ][netty.channel.DefaultChannelPipeline] An exception was thrown by a user handler while handling an exception event ([id: 0x75fa6f56, /127.0.0.1:35068 => /127.0.0.1:9300] EXCEPTION: java.io.IOException: 连接被对方重设)
+java.security.AccessControlException: access denied ("java.lang.RuntimePermission" "accessClassInPackage.sun.nio.ch")
+	at java.security.AccessControlContext.checkPermission(AccessControlContext.java:472)
+	at java.security.AccessController.checkPermission(AccessController.java:884)
+	at java.lang.SecurityManager.checkPermission(SecurityManager.java:549)
+	at java.lang.SecurityManager.checkPackageAccess(SecurityManager.java:1564)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:315)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.jboss.netty.handler.ssl.SslHandler.ignoreException(SslHandler.java:674)
+	at org.jboss.netty.handler.ssl.SslHandler.exceptionCaught(SslHandler.java:620)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:112)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireExceptionCaught(Channels.java:525)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:74)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2017-09-19 15:37:08,260][WARN ][netty.channel.DefaultChannelPipeline] An exception was thrown by a user handler while handling an exception event ([id: 0x6042ccde, /0:0:0:0:0:0:0:1:36040 => /0:0:0:0:0:0:0:1:9300] EXCEPTION: java.io.IOException: 连接被对方重设)
+java.security.AccessControlException: access denied ("java.lang.RuntimePermission" "accessClassInPackage.sun.nio.ch")
+	at java.security.AccessControlContext.checkPermission(AccessControlContext.java:472)
+	at java.security.AccessController.checkPermission(AccessController.java:884)
+	at java.lang.SecurityManager.checkPermission(SecurityManager.java:549)
+	at java.lang.SecurityManager.checkPackageAccess(SecurityManager.java:1564)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:315)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.jboss.netty.handler.ssl.SslHandler.ignoreException(SslHandler.java:674)
+	at org.jboss.netty.handler.ssl.SslHandler.exceptionCaught(SslHandler.java:620)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:112)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireExceptionCaught(Channels.java:525)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:74)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2017-09-19 15:37:08,260][INFO ][cluster.service          ] [node-0] new_master {node-0}{pl9mgCS2SHG_Y1H0ru6Jug}{10.134.102.140}{10.134.102.140:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2017-09-19 15:37:08,321][INFO ][http                     ] [node-0] publish_address {10.134.102.140:9200}, bound_addresses {[::]:9200}
+[2017-09-19 15:37:08,321][INFO ][node                     ] [node-0] started
+[2017-09-19 15:37:08,476][INFO ][gateway                  ] [node-0] recovered [1] indices into cluster_state
+[2017-09-19 15:37:09,149][INFO ][cluster.routing.allocation] [node-0] Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[searchguard][0]] ...]).
+[2017-09-19 15:37:09,241][INFO ][com.floragunn.searchguard.action.configupdate.TransportConfigUpdateAction] [node-0] Node 'node-0' initialized
+[2017-09-19 15:47:27,174][INFO ][node                     ] [node-0] stopping ...
+[2017-09-19 15:47:27,218][INFO ][node                     ] [node-0] stopped
+[2017-09-19 15:47:27,219][INFO ][node                     ] [node-0] closing ...
+[2017-09-19 15:47:27,226][INFO ][node                     ] [node-0] closed
+[2017-09-19 15:48:00,281][INFO ][node                     ] [node-0] version[2.4.1], pid[29338], build[c67dc32/2016-09-27T18:57:55Z]
+[2017-09-19 15:48:00,282][INFO ][node                     ] [node-0] initializing ...
+[2017-09-19 15:48:01,047][INFO ][com.floragunn.searchguard.ssl.SearchGuardSSLPlugin] Search Guard 2 plugin also available
+[2017-09-19 15:48:01,053][INFO ][com.floragunn.searchguard.SearchGuardPlugin] Clustername: kirk
+[2017-09-19 15:48:01,053][INFO ][com.floragunn.searchguard.SearchGuardPlugin] Node [node-0] is a transportClient: false/tribeNode: false/tribeNodeClient: false
+[2017-09-19 15:48:01,054][INFO ][plugins                  ] [node-0] modules [reindex, lang-expression, lang-groovy], plugins [search-guard-ssl, search-guard-2], sites []
+[2017-09-19 15:48:01,085][INFO ][env                      ] [node-0] using [1] data paths, mounts [[/ (/dev/sda1)]], net usable_space [403.9gb], net total_space [450.4gb], spins? [possibly], types [ext4]
+[2017-09-19 15:48:01,085][INFO ][env                      ] [node-0] heap size [1007.3mb], compressed ordinary object pointers [true]
+[2017-09-19 15:48:01,135][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] Open SSL not available (this is not an error, we simply fallback to built-in JDK SSL) because of java.lang.ClassNotFoundException: org.apache.tomcat.jni.SSL
+[2017-09-19 15:48:01,135][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.version: 1.8.0_131
+[2017-09-19 15:48:01,135][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.vendor: Oracle Corporation
+[2017-09-19 15:48:01,135][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.vm.specification.version: 1.8
+[2017-09-19 15:48:01,135][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.vm.specification.vendor: Oracle Corporation
+[2017-09-19 15:48:01,135][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.vm.specification.name: Java Virtual Machine Specification
+[2017-09-19 15:48:01,135][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.vm.name: OpenJDK 64-Bit Server VM
+[2017-09-19 15:48:01,135][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.vm.vendor: Oracle Corporation
+[2017-09-19 15:48:01,135][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.specification.version: 1.8
+[2017-09-19 15:48:01,135][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.specification.vendor: Oracle Corporation
+[2017-09-19 15:48:01,136][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.specification.name: Java Platform API Specification
+[2017-09-19 15:48:01,136][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] os.name: Linux
+[2017-09-19 15:48:01,136][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] os.arch: amd64
+[2017-09-19 15:48:01,136][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] os.version: 4.4.0-93-generic
+[2017-09-19 15:48:01,309][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] JVM supports the following 82 ciphers for https [TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV, TLS_DH_anon_WITH_AES_256_GCM_SHA384, TLS_DH_anon_WITH_AES_128_GCM_SHA256, TLS_DH_anon_WITH_AES_256_CBC_SHA256, TLS_ECDH_anon_WITH_AES_256_CBC_SHA, TLS_DH_anon_WITH_AES_256_CBC_SHA, TLS_DH_anon_WITH_AES_128_CBC_SHA256, TLS_ECDH_anon_WITH_AES_128_CBC_SHA, TLS_DH_anon_WITH_AES_128_CBC_SHA, TLS_ECDH_anon_WITH_3DES_EDE_CBC_SHA, SSL_DH_anon_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_DES_CBC_SHA, SSL_DHE_RSA_WITH_DES_CBC_SHA, SSL_DHE_DSS_WITH_DES_CBC_SHA, SSL_DH_anon_WITH_DES_CBC_SHA, SSL_RSA_EXPORT_WITH_DES40_CBC_SHA, SSL_DHE_RSA_EXPORT_WITH_DES40_CBC_SHA, SSL_DHE_DSS_EXPORT_WITH_DES40_CBC_SHA, SSL_DH_anon_EXPORT_WITH_DES40_CBC_SHA, TLS_RSA_WITH_NULL_SHA256, TLS_ECDHE_ECDSA_WITH_NULL_SHA, TLS_ECDHE_RSA_WITH_NULL_SHA, SSL_RSA_WITH_NULL_SHA, TLS_ECDH_ECDSA_WITH_NULL_SHA, TLS_ECDH_RSA_WITH_NULL_SHA, TLS_ECDH_anon_WITH_NULL_SHA, SSL_RSA_WITH_NULL_MD5, TLS_KRB5_WITH_3DES_EDE_CBC_SHA, TLS_KRB5_WITH_3DES_EDE_CBC_MD5, TLS_KRB5_WITH_DES_CBC_SHA, TLS_KRB5_WITH_DES_CBC_MD5, TLS_KRB5_EXPORT_WITH_DES_CBC_40_SHA, TLS_KRB5_EXPORT_WITH_DES_CBC_40_MD5]
+[2017-09-19 15:48:01,315][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] JVM supports the following 82 ciphers for transport [TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV, TLS_DH_anon_WITH_AES_256_GCM_SHA384, TLS_DH_anon_WITH_AES_128_GCM_SHA256, TLS_DH_anon_WITH_AES_256_CBC_SHA256, TLS_ECDH_anon_WITH_AES_256_CBC_SHA, TLS_DH_anon_WITH_AES_256_CBC_SHA, TLS_DH_anon_WITH_AES_128_CBC_SHA256, TLS_ECDH_anon_WITH_AES_128_CBC_SHA, TLS_DH_anon_WITH_AES_128_CBC_SHA, TLS_ECDH_anon_WITH_3DES_EDE_CBC_SHA, SSL_DH_anon_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_DES_CBC_SHA, SSL_DHE_RSA_WITH_DES_CBC_SHA, SSL_DHE_DSS_WITH_DES_CBC_SHA, SSL_DH_anon_WITH_DES_CBC_SHA, SSL_RSA_EXPORT_WITH_DES40_CBC_SHA, SSL_DHE_RSA_EXPORT_WITH_DES40_CBC_SHA, SSL_DHE_DSS_EXPORT_WITH_DES40_CBC_SHA, SSL_DH_anon_EXPORT_WITH_DES40_CBC_SHA, TLS_RSA_WITH_NULL_SHA256, TLS_ECDHE_ECDSA_WITH_NULL_SHA, TLS_ECDHE_RSA_WITH_NULL_SHA, SSL_RSA_WITH_NULL_SHA, TLS_ECDH_ECDSA_WITH_NULL_SHA, TLS_ECDH_RSA_WITH_NULL_SHA, TLS_ECDH_anon_WITH_NULL_SHA, SSL_RSA_WITH_NULL_MD5, TLS_KRB5_WITH_3DES_EDE_CBC_SHA, TLS_KRB5_WITH_3DES_EDE_CBC_MD5, TLS_KRB5_WITH_DES_CBC_SHA, TLS_KRB5_WITH_DES_CBC_MD5, TLS_KRB5_EXPORT_WITH_DES_CBC_40_SHA, TLS_KRB5_EXPORT_WITH_DES_CBC_40_MD5]
+[2017-09-19 15:48:01,316][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] Config directory is /home/lxm/tlstest/elasticsearch-2.4.1/config/, from there the key- and truststore files are resolved relatively
+[2017-09-19 15:48:01,375][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] sslTransportClientProvider:JDK with ciphers [TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256]
+[2017-09-19 15:48:01,375][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] sslTransportServerProvider:JDK with ciphers [TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256]
+[2017-09-19 15:48:01,375][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] sslHTTPProvider:null with ciphers []
+[2017-09-19 15:48:01,376][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] sslTransport protocols [TLSv1.2, TLSv1.1]
+[2017-09-19 15:48:01,376][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] sslHTTP protocols [TLSv1.2, TLSv1.1]
+[2017-09-19 15:48:01,720][INFO ][com.floragunn.searchguard.configuration.ConfigurationModule] FLS/DLS valve not bound (noop)
+[2017-09-19 15:48:01,721][INFO ][com.floragunn.searchguard.configuration.ConfigurationModule] Privileges interceptor not bound (noop)
+[2017-09-19 15:48:01,723][INFO ][com.floragunn.searchguard.auditlog.AuditLogModule] Auditlog not available
+[2017-09-19 15:48:01,821][INFO ][transport                ] [node-0] Using [com.floragunn.searchguard.transport.SearchGuardTransportService] as transport service, overridden by [search-guard2]
+[2017-09-19 15:48:01,821][INFO ][transport                ] [node-0] Using [com.floragunn.searchguard.ssl.transport.SearchGuardSSLNettyTransport] as transport, overridden by [search-guard-ssl]
+[2017-09-19 15:48:03,944][INFO ][node                     ] [node-0] initialized
+[2017-09-19 15:48:03,945][INFO ][node                     ] [node-0] starting ...
+[2017-09-19 15:48:04,074][INFO ][com.floragunn.searchguard.transport.SearchGuardTransportService] [node-0] publish_address {10.134.102.140:9300}, bound_addresses {[::]:9300}
+[2017-09-19 15:48:04,079][INFO ][com.floragunn.searchguard.action.configupdate.TransportConfigUpdateAction] [node-0] Check if searchguard index exists ...
+[2017-09-19 15:48:04,090][DEBUG][action.admin.indices.exists.indices] [node-0] no known master node, scheduling a retry
+[2017-09-19 15:48:04,097][INFO ][discovery                ] [node-0] kirk/8QumHosPSMWfjPN-RDQdgQ
+[2017-09-19 15:48:07,213][WARN ][netty.channel.DefaultChannelPipeline] An exception was thrown by a user handler while handling an exception event ([id: 0x272b5195, /127.0.0.1:35956 => /127.0.0.1:9300] EXCEPTION: java.io.IOException: 连接被对方重设)
+java.security.AccessControlException: access denied ("java.lang.RuntimePermission" "accessClassInPackage.sun.nio.ch")
+	at java.security.AccessControlContext.checkPermission(AccessControlContext.java:472)
+	at java.security.AccessController.checkPermission(AccessController.java:884)
+	at java.lang.SecurityManager.checkPermission(SecurityManager.java:549)
+	at java.lang.SecurityManager.checkPackageAccess(SecurityManager.java:1564)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:315)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.jboss.netty.handler.ssl.SslHandler.ignoreException(SslHandler.java:674)
+	at org.jboss.netty.handler.ssl.SslHandler.exceptionCaught(SslHandler.java:620)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:112)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireExceptionCaught(Channels.java:525)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:74)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2017-09-19 15:48:07,220][INFO ][cluster.service          ] [node-0] new_master {node-0}{8QumHosPSMWfjPN-RDQdgQ}{10.134.102.140}{10.134.102.140:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2017-09-19 15:48:07,263][INFO ][http                     ] [node-0] publish_address {10.134.102.140:9200}, bound_addresses {[::]:9200}
+[2017-09-19 15:48:07,263][INFO ][node                     ] [node-0] started
+[2017-09-19 15:48:07,446][INFO ][gateway                  ] [node-0] recovered [1] indices into cluster_state
+[2017-09-19 15:48:08,078][INFO ][cluster.routing.allocation] [node-0] Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[searchguard][0]] ...]).
+[2017-09-19 15:48:08,198][INFO ][com.floragunn.searchguard.action.configupdate.TransportConfigUpdateAction] [node-0] Node 'node-0' initialized
+[2017-09-19 16:18:56,610][INFO ][node                     ] [node-0] stopping ...
+[2017-09-19 16:18:56,652][INFO ][node                     ] [node-0] stopped
+[2017-09-19 16:18:56,652][INFO ][node                     ] [node-0] closing ...
+[2017-09-19 16:18:56,657][INFO ][node                     ] [node-0] closed
+[2017-09-19 16:19:26,704][INFO ][node                     ] [node-0] version[2.4.1], pid[29784], build[c67dc32/2016-09-27T18:57:55Z]
+[2017-09-19 16:19:26,705][INFO ][node                     ] [node-0] initializing ...
+[2017-09-19 16:19:27,458][INFO ][com.floragunn.searchguard.ssl.SearchGuardSSLPlugin] Search Guard 2 plugin also available
+[2017-09-19 16:19:27,464][INFO ][com.floragunn.searchguard.SearchGuardPlugin] Clustername: kirk
+[2017-09-19 16:19:27,465][INFO ][com.floragunn.searchguard.SearchGuardPlugin] Node [node-0] is a transportClient: false/tribeNode: false/tribeNodeClient: false
+[2017-09-19 16:19:27,465][INFO ][plugins                  ] [node-0] modules [reindex, lang-expression, lang-groovy], plugins [search-guard-ssl, search-guard-2], sites []
+[2017-09-19 16:19:27,499][INFO ][env                      ] [node-0] using [1] data paths, mounts [[/ (/dev/sda1)]], net usable_space [403.9gb], net total_space [450.4gb], spins? [possibly], types [ext4]
+[2017-09-19 16:19:27,500][INFO ][env                      ] [node-0] heap size [1007.3mb], compressed ordinary object pointers [true]
+[2017-09-19 16:19:27,553][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] Open SSL not available (this is not an error, we simply fallback to built-in JDK SSL) because of java.lang.ClassNotFoundException: org.apache.tomcat.jni.SSL
+[2017-09-19 16:19:27,553][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] Open SSL not available (this is not an error, we simply fallback to built-in JDK SSL) because of java.lang.ClassNotFoundException: org.apache.tomcat.jni.SSL
+[2017-09-19 16:19:27,561][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.version: 1.8.0_131
+[2017-09-19 16:19:27,561][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.vendor: Oracle Corporation
+[2017-09-19 16:19:27,561][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.vm.specification.version: 1.8
+[2017-09-19 16:19:27,561][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.vm.specification.vendor: Oracle Corporation
+[2017-09-19 16:19:27,561][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.vm.specification.name: Java Virtual Machine Specification
+[2017-09-19 16:19:27,561][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.vm.name: OpenJDK 64-Bit Server VM
+[2017-09-19 16:19:27,561][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.vm.vendor: Oracle Corporation
+[2017-09-19 16:19:27,561][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.specification.version: 1.8
+[2017-09-19 16:19:27,561][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.specification.vendor: Oracle Corporation
+[2017-09-19 16:19:27,561][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.specification.name: Java Platform API Specification
+[2017-09-19 16:19:27,561][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] os.name: Linux
+[2017-09-19 16:19:27,561][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] os.arch: amd64
+[2017-09-19 16:19:27,561][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] os.version: 4.4.0-93-generic
+[2017-09-19 16:19:27,789][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] JVM supports the following 82 ciphers for https [TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV, TLS_DH_anon_WITH_AES_256_GCM_SHA384, TLS_DH_anon_WITH_AES_128_GCM_SHA256, TLS_DH_anon_WITH_AES_256_CBC_SHA256, TLS_ECDH_anon_WITH_AES_256_CBC_SHA, TLS_DH_anon_WITH_AES_256_CBC_SHA, TLS_DH_anon_WITH_AES_128_CBC_SHA256, TLS_ECDH_anon_WITH_AES_128_CBC_SHA, TLS_DH_anon_WITH_AES_128_CBC_SHA, TLS_ECDH_anon_WITH_3DES_EDE_CBC_SHA, SSL_DH_anon_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_DES_CBC_SHA, SSL_DHE_RSA_WITH_DES_CBC_SHA, SSL_DHE_DSS_WITH_DES_CBC_SHA, SSL_DH_anon_WITH_DES_CBC_SHA, SSL_RSA_EXPORT_WITH_DES40_CBC_SHA, SSL_DHE_RSA_EXPORT_WITH_DES40_CBC_SHA, SSL_DHE_DSS_EXPORT_WITH_DES40_CBC_SHA, SSL_DH_anon_EXPORT_WITH_DES40_CBC_SHA, TLS_RSA_WITH_NULL_SHA256, TLS_ECDHE_ECDSA_WITH_NULL_SHA, TLS_ECDHE_RSA_WITH_NULL_SHA, SSL_RSA_WITH_NULL_SHA, TLS_ECDH_ECDSA_WITH_NULL_SHA, TLS_ECDH_RSA_WITH_NULL_SHA, TLS_ECDH_anon_WITH_NULL_SHA, SSL_RSA_WITH_NULL_MD5, TLS_KRB5_WITH_3DES_EDE_CBC_SHA, TLS_KRB5_WITH_3DES_EDE_CBC_MD5, TLS_KRB5_WITH_DES_CBC_SHA, TLS_KRB5_WITH_DES_CBC_MD5, TLS_KRB5_EXPORT_WITH_DES_CBC_40_SHA, TLS_KRB5_EXPORT_WITH_DES_CBC_40_MD5]
+[2017-09-19 16:19:27,795][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] JVM supports the following 82 ciphers for transport [TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV, TLS_DH_anon_WITH_AES_256_GCM_SHA384, TLS_DH_anon_WITH_AES_128_GCM_SHA256, TLS_DH_anon_WITH_AES_256_CBC_SHA256, TLS_ECDH_anon_WITH_AES_256_CBC_SHA, TLS_DH_anon_WITH_AES_256_CBC_SHA, TLS_DH_anon_WITH_AES_128_CBC_SHA256, TLS_ECDH_anon_WITH_AES_128_CBC_SHA, TLS_DH_anon_WITH_AES_128_CBC_SHA, TLS_ECDH_anon_WITH_3DES_EDE_CBC_SHA, SSL_DH_anon_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_DES_CBC_SHA, SSL_DHE_RSA_WITH_DES_CBC_SHA, SSL_DHE_DSS_WITH_DES_CBC_SHA, SSL_DH_anon_WITH_DES_CBC_SHA, SSL_RSA_EXPORT_WITH_DES40_CBC_SHA, SSL_DHE_RSA_EXPORT_WITH_DES40_CBC_SHA, SSL_DHE_DSS_EXPORT_WITH_DES40_CBC_SHA, SSL_DH_anon_EXPORT_WITH_DES40_CBC_SHA, TLS_RSA_WITH_NULL_SHA256, TLS_ECDHE_ECDSA_WITH_NULL_SHA, TLS_ECDHE_RSA_WITH_NULL_SHA, SSL_RSA_WITH_NULL_SHA, TLS_ECDH_ECDSA_WITH_NULL_SHA, TLS_ECDH_RSA_WITH_NULL_SHA, TLS_ECDH_anon_WITH_NULL_SHA, SSL_RSA_WITH_NULL_MD5, TLS_KRB5_WITH_3DES_EDE_CBC_SHA, TLS_KRB5_WITH_3DES_EDE_CBC_MD5, TLS_KRB5_WITH_DES_CBC_SHA, TLS_KRB5_WITH_DES_CBC_MD5, TLS_KRB5_EXPORT_WITH_DES_CBC_40_SHA, TLS_KRB5_EXPORT_WITH_DES_CBC_40_MD5]
+[2017-09-19 16:19:27,797][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] Config directory is /home/lxm/tlstest/elasticsearch-2.4.1/config/, from there the key- and truststore files are resolved relatively
+[2017-09-19 16:19:27,836][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] HTTPS client auth mode OPTIONAL
+[2017-09-19 16:19:27,840][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] sslTransportClientProvider:JDK with ciphers [TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256]
+[2017-09-19 16:19:27,840][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] sslTransportServerProvider:JDK with ciphers [TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256]
+[2017-09-19 16:19:27,840][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] sslHTTPProvider:JDK with ciphers [TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256]
+[2017-09-19 16:19:27,840][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] sslTransport protocols [TLSv1.2, TLSv1.1]
+[2017-09-19 16:19:27,840][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] sslHTTP protocols [TLSv1.2, TLSv1.1]
+[2017-09-19 16:19:28,106][INFO ][http                     ] [node-0] Using [org.elasticsearch.http.netty.NettyHttpServerTransport] as http transport, overridden by [search-guard2]
+[2017-09-19 16:19:28,198][INFO ][com.floragunn.searchguard.configuration.ConfigurationModule] FLS/DLS valve not bound (noop)
+[2017-09-19 16:19:28,199][INFO ][com.floragunn.searchguard.configuration.ConfigurationModule] Privileges interceptor not bound (noop)
+[2017-09-19 16:19:28,202][INFO ][com.floragunn.searchguard.auditlog.AuditLogModule] Auditlog not available
+[2017-09-19 16:19:28,296][INFO ][transport                ] [node-0] Using [com.floragunn.searchguard.transport.SearchGuardTransportService] as transport service, overridden by [search-guard2]
+[2017-09-19 16:19:28,297][INFO ][transport                ] [node-0] Using [com.floragunn.searchguard.ssl.transport.SearchGuardSSLNettyTransport] as transport, overridden by [search-guard-ssl]
+[2017-09-19 16:19:30,594][INFO ][node                     ] [node-0] initialized
+[2017-09-19 16:19:30,596][INFO ][node                     ] [node-0] starting ...
+[2017-09-19 16:19:30,805][INFO ][com.floragunn.searchguard.transport.SearchGuardTransportService] [node-0] publish_address {10.134.102.140:9300}, bound_addresses {[::]:9300}
+[2017-09-19 16:19:30,811][INFO ][com.floragunn.searchguard.action.configupdate.TransportConfigUpdateAction] [node-0] Check if searchguard index exists ...
+[2017-09-19 16:19:30,821][DEBUG][action.admin.indices.exists.indices] [node-0] no known master node, scheduling a retry
+[2017-09-19 16:19:30,829][INFO ][discovery                ] [node-0] kirk/Frt5bNxbQ0Su_uSOpi7TPg
+[2017-09-19 16:19:34,015][WARN ][netty.channel.DefaultChannelPipeline] An exception was thrown by a user handler while handling an exception event ([id: 0xbb11302a, /127.0.0.1:36688 => /127.0.0.1:9300] EXCEPTION: java.io.IOException: 连接被对方重设)
+java.security.AccessControlException: access denied ("java.lang.RuntimePermission" "accessClassInPackage.sun.nio.ch")
+	at java.security.AccessControlContext.checkPermission(AccessControlContext.java:472)
+	at java.security.AccessController.checkPermission(AccessController.java:884)
+	at java.lang.SecurityManager.checkPermission(SecurityManager.java:549)
+	at java.lang.SecurityManager.checkPackageAccess(SecurityManager.java:1564)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:315)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.jboss.netty.handler.ssl.SslHandler.ignoreException(SslHandler.java:674)
+	at org.jboss.netty.handler.ssl.SslHandler.exceptionCaught(SslHandler.java:620)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:112)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireExceptionCaught(Channels.java:525)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:74)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2017-09-19 16:19:34,037][INFO ][cluster.service          ] [node-0] new_master {node-0}{Frt5bNxbQ0Su_uSOpi7TPg}{10.134.102.140}{10.134.102.140:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2017-09-19 16:19:34,027][WARN ][netty.channel.DefaultChannelPipeline] An exception was thrown by a user handler while handling an exception event ([id: 0x477d1d6d, /0:0:0:0:0:0:0:1:37670 => /0:0:0:0:0:0:0:1:9300] EXCEPTION: java.io.IOException: 连接被对方重设)
+java.security.AccessControlException: access denied ("java.lang.RuntimePermission" "accessClassInPackage.sun.nio.ch")
+	at java.security.AccessControlContext.checkPermission(AccessControlContext.java:472)
+	at java.security.AccessController.checkPermission(AccessController.java:884)
+	at java.lang.SecurityManager.checkPermission(SecurityManager.java:549)
+	at java.lang.SecurityManager.checkPackageAccess(SecurityManager.java:1564)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:315)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.jboss.netty.handler.ssl.SslHandler.ignoreException(SslHandler.java:674)
+	at org.jboss.netty.handler.ssl.SslHandler.exceptionCaught(SslHandler.java:620)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:112)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireExceptionCaught(Channels.java:525)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:74)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2017-09-19 16:19:34,095][INFO ][http                     ] [node-0] publish_address {10.134.102.140:9200}, bound_addresses {[::]:9200}
+[2017-09-19 16:19:34,097][INFO ][node                     ] [node-0] started
+[2017-09-19 16:19:34,289][INFO ][gateway                  ] [node-0] recovered [1] indices into cluster_state
+[2017-09-19 16:19:35,397][INFO ][cluster.routing.allocation] [node-0] Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[searchguard][0]] ...]).
+[2017-09-19 16:19:35,507][INFO ][com.floragunn.searchguard.action.configupdate.TransportConfigUpdateAction] [node-0] Node 'node-0' initialized
+[2017-09-19 16:19:39,387][WARN ][com.floragunn.searchguard.http.SearchGuardHttpServerTransport] [node-0] Someone (/127.0.0.1:59650) speaks http plaintext instead of ssl, will close the channel
+[2017-09-19 16:19:39,400][WARN ][com.floragunn.searchguard.http.SearchGuardHttpServerTransport] [node-0] Someone (/127.0.0.1:59652) speaks http plaintext instead of ssl, will close the channel
+[2017-09-19 16:19:39,409][WARN ][com.floragunn.searchguard.http.SearchGuardHttpServerTransport] [node-0] Someone (/127.0.0.1:59654) speaks http plaintext instead of ssl, will close the channel
+[2017-09-19 16:19:39,530][WARN ][com.floragunn.searchguard.http.SearchGuardHttpServerTransport] [node-0] Someone (/127.0.0.1:59656) speaks http plaintext instead of ssl, will close the channel
+[2017-09-19 16:19:44,552][WARN ][com.floragunn.searchguard.http.SearchGuardHttpServerTransport] [node-0] Someone (/127.0.0.1:59658) speaks http plaintext instead of ssl, will close the channel
+[2017-09-19 16:23:15,372][WARN ][netty.channel.DefaultChannelPipeline] An exception was thrown by a user handler while handling an exception event ([id: 0xdd84d7cb, /127.0.0.1:59676 => /127.0.0.1:9200] EXCEPTION: java.io.IOException: 连接被对方重设)
+java.security.AccessControlException: access denied ("java.lang.RuntimePermission" "accessClassInPackage.sun.nio.ch")
+	at java.security.AccessControlContext.checkPermission(AccessControlContext.java:472)
+	at java.security.AccessController.checkPermission(AccessController.java:884)
+	at java.lang.SecurityManager.checkPermission(SecurityManager.java:549)
+	at java.lang.SecurityManager.checkPackageAccess(SecurityManager.java:1564)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:315)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.jboss.netty.handler.ssl.SslHandler.ignoreException(SslHandler.java:674)
+	at org.jboss.netty.handler.ssl.SslHandler.exceptionCaught(SslHandler.java:620)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:112)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireExceptionCaught(Channels.java:525)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:74)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2017-09-19 16:24:52,794][WARN ][netty.channel.DefaultChannelPipeline] An exception was thrown by a user handler while handling an exception event ([id: 0x6ee3cfaf, /127.0.0.1:59694 => /127.0.0.1:9200] EXCEPTION: java.io.IOException: 连接被对方重设)
+java.security.AccessControlException: access denied ("java.lang.RuntimePermission" "accessClassInPackage.sun.nio.ch")
+	at java.security.AccessControlContext.checkPermission(AccessControlContext.java:472)
+	at java.security.AccessController.checkPermission(AccessController.java:884)
+	at java.lang.SecurityManager.checkPermission(SecurityManager.java:549)
+	at java.lang.SecurityManager.checkPackageAccess(SecurityManager.java:1564)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:315)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.jboss.netty.handler.ssl.SslHandler.ignoreException(SslHandler.java:674)
+	at org.jboss.netty.handler.ssl.SslHandler.exceptionCaught(SslHandler.java:620)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:112)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireExceptionCaught(Channels.java:525)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:74)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2017-09-19 16:25:13,345][INFO ][node                     ] [node-0] stopping ...
+[2017-09-19 16:25:13,388][INFO ][node                     ] [node-0] stopped
+[2017-09-19 16:25:13,388][INFO ][node                     ] [node-0] closing ...
+[2017-09-19 16:25:13,403][INFO ][node                     ] [node-0] closed
+[2017-09-19 16:25:49,425][INFO ][node                     ] [node-0] version[2.4.1], pid[30044], build[c67dc32/2016-09-27T18:57:55Z]
+[2017-09-19 16:25:49,426][INFO ][node                     ] [node-0] initializing ...
+[2017-09-19 16:25:50,183][INFO ][com.floragunn.searchguard.ssl.SearchGuardSSLPlugin] Search Guard 2 plugin also available
+[2017-09-19 16:25:50,189][INFO ][com.floragunn.searchguard.SearchGuardPlugin] Clustername: kirk
+[2017-09-19 16:25:50,190][INFO ][com.floragunn.searchguard.SearchGuardPlugin] Node [node-0] is a transportClient: false/tribeNode: false/tribeNodeClient: false
+[2017-09-19 16:25:50,190][INFO ][plugins                  ] [node-0] modules [reindex, lang-expression, lang-groovy], plugins [search-guard-ssl, search-guard-2], sites []
+[2017-09-19 16:25:50,232][INFO ][env                      ] [node-0] using [1] data paths, mounts [[/ (/dev/sda1)]], net usable_space [403.9gb], net total_space [450.4gb], spins? [possibly], types [ext4]
+[2017-09-19 16:25:50,233][INFO ][env                      ] [node-0] heap size [1007.3mb], compressed ordinary object pointers [true]
+[2017-09-19 16:25:50,286][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] Open SSL not available (this is not an error, we simply fallback to built-in JDK SSL) because of java.lang.ClassNotFoundException: org.apache.tomcat.jni.SSL
+[2017-09-19 16:25:50,287][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.version: 1.8.0_131
+[2017-09-19 16:25:50,287][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.vendor: Oracle Corporation
+[2017-09-19 16:25:50,287][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.vm.specification.version: 1.8
+[2017-09-19 16:25:50,287][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.vm.specification.vendor: Oracle Corporation
+[2017-09-19 16:25:50,287][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.vm.specification.name: Java Virtual Machine Specification
+[2017-09-19 16:25:50,287][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.vm.name: OpenJDK 64-Bit Server VM
+[2017-09-19 16:25:50,287][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.vm.vendor: Oracle Corporation
+[2017-09-19 16:25:50,287][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.specification.version: 1.8
+[2017-09-19 16:25:50,288][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.specification.vendor: Oracle Corporation
+[2017-09-19 16:25:50,288][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.specification.name: Java Platform API Specification
+[2017-09-19 16:25:50,288][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] os.name: Linux
+[2017-09-19 16:25:50,288][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] os.arch: amd64
+[2017-09-19 16:25:50,288][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] os.version: 4.4.0-93-generic
+[2017-09-19 16:25:50,492][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] JVM supports the following 82 ciphers for https [TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV, TLS_DH_anon_WITH_AES_256_GCM_SHA384, TLS_DH_anon_WITH_AES_128_GCM_SHA256, TLS_DH_anon_WITH_AES_256_CBC_SHA256, TLS_ECDH_anon_WITH_AES_256_CBC_SHA, TLS_DH_anon_WITH_AES_256_CBC_SHA, TLS_DH_anon_WITH_AES_128_CBC_SHA256, TLS_ECDH_anon_WITH_AES_128_CBC_SHA, TLS_DH_anon_WITH_AES_128_CBC_SHA, TLS_ECDH_anon_WITH_3DES_EDE_CBC_SHA, SSL_DH_anon_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_DES_CBC_SHA, SSL_DHE_RSA_WITH_DES_CBC_SHA, SSL_DHE_DSS_WITH_DES_CBC_SHA, SSL_DH_anon_WITH_DES_CBC_SHA, SSL_RSA_EXPORT_WITH_DES40_CBC_SHA, SSL_DHE_RSA_EXPORT_WITH_DES40_CBC_SHA, SSL_DHE_DSS_EXPORT_WITH_DES40_CBC_SHA, SSL_DH_anon_EXPORT_WITH_DES40_CBC_SHA, TLS_RSA_WITH_NULL_SHA256, TLS_ECDHE_ECDSA_WITH_NULL_SHA, TLS_ECDHE_RSA_WITH_NULL_SHA, SSL_RSA_WITH_NULL_SHA, TLS_ECDH_ECDSA_WITH_NULL_SHA, TLS_ECDH_RSA_WITH_NULL_SHA, TLS_ECDH_anon_WITH_NULL_SHA, SSL_RSA_WITH_NULL_MD5, TLS_KRB5_WITH_3DES_EDE_CBC_SHA, TLS_KRB5_WITH_3DES_EDE_CBC_MD5, TLS_KRB5_WITH_DES_CBC_SHA, TLS_KRB5_WITH_DES_CBC_MD5, TLS_KRB5_EXPORT_WITH_DES_CBC_40_SHA, TLS_KRB5_EXPORT_WITH_DES_CBC_40_MD5]
+[2017-09-19 16:25:50,498][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] JVM supports the following 82 ciphers for transport [TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV, TLS_DH_anon_WITH_AES_256_GCM_SHA384, TLS_DH_anon_WITH_AES_128_GCM_SHA256, TLS_DH_anon_WITH_AES_256_CBC_SHA256, TLS_ECDH_anon_WITH_AES_256_CBC_SHA, TLS_DH_anon_WITH_AES_256_CBC_SHA, TLS_DH_anon_WITH_AES_128_CBC_SHA256, TLS_ECDH_anon_WITH_AES_128_CBC_SHA, TLS_DH_anon_WITH_AES_128_CBC_SHA, TLS_ECDH_anon_WITH_3DES_EDE_CBC_SHA, SSL_DH_anon_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_DES_CBC_SHA, SSL_DHE_RSA_WITH_DES_CBC_SHA, SSL_DHE_DSS_WITH_DES_CBC_SHA, SSL_DH_anon_WITH_DES_CBC_SHA, SSL_RSA_EXPORT_WITH_DES40_CBC_SHA, SSL_DHE_RSA_EXPORT_WITH_DES40_CBC_SHA, SSL_DHE_DSS_EXPORT_WITH_DES40_CBC_SHA, SSL_DH_anon_EXPORT_WITH_DES40_CBC_SHA, TLS_RSA_WITH_NULL_SHA256, TLS_ECDHE_ECDSA_WITH_NULL_SHA, TLS_ECDHE_RSA_WITH_NULL_SHA, SSL_RSA_WITH_NULL_SHA, TLS_ECDH_ECDSA_WITH_NULL_SHA, TLS_ECDH_RSA_WITH_NULL_SHA, TLS_ECDH_anon_WITH_NULL_SHA, SSL_RSA_WITH_NULL_MD5, TLS_KRB5_WITH_3DES_EDE_CBC_SHA, TLS_KRB5_WITH_3DES_EDE_CBC_MD5, TLS_KRB5_WITH_DES_CBC_SHA, TLS_KRB5_WITH_DES_CBC_MD5, TLS_KRB5_EXPORT_WITH_DES_CBC_40_SHA, TLS_KRB5_EXPORT_WITH_DES_CBC_40_MD5]
+[2017-09-19 16:25:50,499][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] Config directory is /home/lxm/tlstest/elasticsearch-2.4.1/config/, from there the key- and truststore files are resolved relatively
+[2017-09-19 16:25:50,561][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] sslTransportClientProvider:JDK with ciphers [TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256]
+[2017-09-19 16:25:50,562][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] sslTransportServerProvider:JDK with ciphers [TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256]
+[2017-09-19 16:25:50,562][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] sslHTTPProvider:null with ciphers []
+[2017-09-19 16:25:50,562][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] sslTransport protocols [TLSv1.2, TLSv1.1]
+[2017-09-19 16:25:50,562][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] sslHTTP protocols [TLSv1.2, TLSv1.1]
+[2017-09-19 16:25:50,921][INFO ][com.floragunn.searchguard.configuration.ConfigurationModule] FLS/DLS valve not bound (noop)
+[2017-09-19 16:25:50,922][INFO ][com.floragunn.searchguard.configuration.ConfigurationModule] Privileges interceptor not bound (noop)
+[2017-09-19 16:25:50,925][INFO ][com.floragunn.searchguard.auditlog.AuditLogModule] Auditlog not available
+[2017-09-19 16:25:51,011][INFO ][transport                ] [node-0] Using [com.floragunn.searchguard.transport.SearchGuardTransportService] as transport service, overridden by [search-guard2]
+[2017-09-19 16:25:51,011][INFO ][transport                ] [node-0] Using [com.floragunn.searchguard.ssl.transport.SearchGuardSSLNettyTransport] as transport, overridden by [search-guard-ssl]
+[2017-09-19 16:25:53,171][INFO ][node                     ] [node-0] initialized
+[2017-09-19 16:25:53,171][INFO ][node                     ] [node-0] starting ...
+[2017-09-19 16:25:53,325][INFO ][com.floragunn.searchguard.transport.SearchGuardTransportService] [node-0] publish_address {10.134.102.140:9300}, bound_addresses {[::]:9300}
+[2017-09-19 16:25:53,331][INFO ][com.floragunn.searchguard.action.configupdate.TransportConfigUpdateAction] [node-0] Check if searchguard index exists ...
+[2017-09-19 16:25:53,340][DEBUG][action.admin.indices.exists.indices] [node-0] no known master node, scheduling a retry
+[2017-09-19 16:25:53,354][INFO ][discovery                ] [node-0] kirk/Jw8w2SFGRtCmq1q2_qXV7g
+[2017-09-19 16:25:56,506][WARN ][netty.channel.DefaultChannelPipeline] An exception was thrown by a user handler while handling an exception event ([id: 0xcdbc216c, /0:0:0:0:0:0:0:1:37804 => /0:0:0:0:0:0:0:1:9300] EXCEPTION: java.io.IOException: 连接被对方重设)
+java.security.AccessControlException: access denied ("java.lang.RuntimePermission" "accessClassInPackage.sun.nio.ch")
+	at java.security.AccessControlContext.checkPermission(AccessControlContext.java:472)
+	at java.security.AccessController.checkPermission(AccessController.java:884)
+	at java.lang.SecurityManager.checkPermission(SecurityManager.java:549)
+	at java.lang.SecurityManager.checkPackageAccess(SecurityManager.java:1564)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:315)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.jboss.netty.handler.ssl.SslHandler.ignoreException(SslHandler.java:674)
+	at org.jboss.netty.handler.ssl.SslHandler.exceptionCaught(SslHandler.java:620)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:112)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireExceptionCaught(Channels.java:525)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:74)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2017-09-19 16:25:56,535][INFO ][cluster.service          ] [node-0] new_master {node-0}{Jw8w2SFGRtCmq1q2_qXV7g}{10.134.102.140}{10.134.102.140:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2017-09-19 16:25:56,635][INFO ][http                     ] [node-0] publish_address {10.134.102.140:9200}, bound_addresses {[::]:9200}
+[2017-09-19 16:25:56,635][INFO ][node                     ] [node-0] started
+[2017-09-19 16:25:56,816][INFO ][gateway                  ] [node-0] recovered [1] indices into cluster_state
+[2017-09-19 16:25:57,807][INFO ][cluster.routing.allocation] [node-0] Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[searchguard][0]] ...]).
+[2017-09-19 16:25:57,947][INFO ][com.floragunn.searchguard.action.configupdate.TransportConfigUpdateAction] [node-0] Node 'node-0' initialized
+[2017-09-19 16:27:06,494][WARN ][http.netty               ] [node-0] Caught exception while handling client http traffic, closing connection [id: 0x8de17774, /127.0.0.1:59786 => /127.0.0.1:9200]
+java.lang.IllegalArgumentException: invalid version format: ￀#￀
+	at org.jboss.netty.handler.codec.http.HttpVersion.<init>(HttpVersion.java:94)
+	at org.jboss.netty.handler.codec.http.HttpVersion.valueOf(HttpVersion.java:62)
+	at org.jboss.netty.handler.codec.http.HttpRequestDecoder.createMessage(HttpRequestDecoder.java:75)
+	at org.jboss.netty.handler.codec.http.HttpMessageDecoder.decode(HttpMessageDecoder.java:191)
+	at org.jboss.netty.handler.codec.http.HttpMessageDecoder.decode(HttpMessageDecoder.java:102)
+	at org.jboss.netty.handler.codec.replay.ReplayingDecoder.callDecode(ReplayingDecoder.java:500)
+	at org.jboss.netty.handler.codec.replay.ReplayingDecoder.messageReceived(ReplayingDecoder.java:435)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.common.netty.OpenChannelsHandler.handleUpstream(OpenChannelsHandler.java:75)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2017-09-19 16:27:06,499][WARN ][http.netty               ] [node-0] Caught exception while handling client http traffic, closing connection [id: 0x8de17774, /127.0.0.1:59786 :> /127.0.0.1:9200]
+java.lang.IllegalArgumentException: invalid version format: ￀#￀
+	at org.jboss.netty.handler.codec.http.HttpVersion.<init>(HttpVersion.java:94)
+	at org.jboss.netty.handler.codec.http.HttpVersion.valueOf(HttpVersion.java:62)
+	at org.jboss.netty.handler.codec.http.HttpRequestDecoder.createMessage(HttpRequestDecoder.java:75)
+	at org.jboss.netty.handler.codec.http.HttpMessageDecoder.decode(HttpMessageDecoder.java:191)
+	at org.jboss.netty.handler.codec.http.HttpMessageDecoder.decode(HttpMessageDecoder.java:102)
+	at org.jboss.netty.handler.codec.replay.ReplayingDecoder.callDecode(ReplayingDecoder.java:500)
+	at org.jboss.netty.handler.codec.replay.ReplayingDecoder.cleanup(ReplayingDecoder.java:554)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.channelDisconnected(FrameDecoder.java:365)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:102)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.common.netty.OpenChannelsHandler.handleUpstream(OpenChannelsHandler.java:75)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireChannelDisconnected(Channels.java:396)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.close(AbstractNioWorker.java:360)
+	at org.jboss.netty.channel.socket.nio.NioServerSocketPipelineSink.handleAcceptedSocket(NioServerSocketPipelineSink.java:81)
+	at org.jboss.netty.channel.socket.nio.NioServerSocketPipelineSink.eventSunk(NioServerSocketPipelineSink.java:36)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendDownstream(DefaultChannelPipeline.java:779)
+	at org.jboss.netty.handler.codec.oneone.OneToOneEncoder.handleDownstream(OneToOneEncoder.java:54)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:591)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendDownstream(DefaultChannelPipeline.java:784)
+	at org.jboss.netty.channel.SimpleChannelHandler.closeRequested(SimpleChannelHandler.java:334)
+	at org.jboss.netty.channel.SimpleChannelHandler.handleDownstream(SimpleChannelHandler.java:260)
+	at org.elasticsearch.http.netty.pipelining.HttpPipeliningHandler.handleDownstream(HttpPipeliningHandler.java:105)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:591)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:582)
+	at org.jboss.netty.channel.Channels.close(Channels.java:812)
+	at org.jboss.netty.channel.AbstractChannel.close(AbstractChannel.java:205)
+	at org.elasticsearch.http.netty.NettyHttpServerTransport.exceptionCaught(NettyHttpServerTransport.java:467)
+	at org.elasticsearch.http.netty.HttpRequestHandler.exceptionCaught(HttpRequestHandler.java:67)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:112)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.SimpleChannelHandler.exceptionCaught(SimpleChannelHandler.java:156)
+	at org.jboss.netty.channel.SimpleChannelHandler.handleUpstream(SimpleChannelHandler.java:130)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.exceptionCaught(SimpleChannelUpstreamHandler.java:153)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:112)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.exceptionCaught(SimpleChannelUpstreamHandler.java:153)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:112)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.exceptionCaught(FrameDecoder.java:377)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:112)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.common.netty.OpenChannelsHandler.handleUpstream(OpenChannelsHandler.java:75)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireExceptionCaught(Channels.java:525)
+	at org.jboss.netty.channel.AbstractChannelSink.exceptionCaught(AbstractChannelSink.java:48)
+	at org.jboss.netty.channel.DefaultChannelPipeline.notifyHandlerException(DefaultChannelPipeline.java:658)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:566)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.common.netty.OpenChannelsHandler.handleUpstream(OpenChannelsHandler.java:75)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2017-09-19 16:27:38,832][WARN ][http.netty               ] [node-0] Caught exception while handling client http traffic, closing connection [id: 0x492fe93e, /127.0.0.1:59788 => /127.0.0.1:9200]
+java.lang.IllegalArgumentException: empty text
+	at org.jboss.netty.handler.codec.http.HttpVersion.<init>(HttpVersion.java:89)
+	at org.jboss.netty.handler.codec.http.HttpVersion.valueOf(HttpVersion.java:62)
+	at org.jboss.netty.handler.codec.http.HttpRequestDecoder.createMessage(HttpRequestDecoder.java:75)
+	at org.jboss.netty.handler.codec.http.HttpMessageDecoder.decode(HttpMessageDecoder.java:191)
+	at org.jboss.netty.handler.codec.http.HttpMessageDecoder.decode(HttpMessageDecoder.java:102)
+	at org.jboss.netty.handler.codec.replay.ReplayingDecoder.callDecode(ReplayingDecoder.java:500)
+	at org.jboss.netty.handler.codec.replay.ReplayingDecoder.messageReceived(ReplayingDecoder.java:435)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.common.netty.OpenChannelsHandler.handleUpstream(OpenChannelsHandler.java:75)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2017-09-19 16:27:38,839][WARN ][http.netty               ] [node-0] Caught exception while handling client http traffic, closing connection [id: 0x492fe93e, /127.0.0.1:59788 :> /127.0.0.1:9200]
+java.lang.IllegalArgumentException: empty text
+	at org.jboss.netty.handler.codec.http.HttpVersion.<init>(HttpVersion.java:89)
+	at org.jboss.netty.handler.codec.http.HttpVersion.valueOf(HttpVersion.java:62)
+	at org.jboss.netty.handler.codec.http.HttpRequestDecoder.createMessage(HttpRequestDecoder.java:75)
+	at org.jboss.netty.handler.codec.http.HttpMessageDecoder.decode(HttpMessageDecoder.java:191)
+	at org.jboss.netty.handler.codec.http.HttpMessageDecoder.decode(HttpMessageDecoder.java:102)
+	at org.jboss.netty.handler.codec.replay.ReplayingDecoder.callDecode(ReplayingDecoder.java:500)
+	at org.jboss.netty.handler.codec.replay.ReplayingDecoder.cleanup(ReplayingDecoder.java:554)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.channelDisconnected(FrameDecoder.java:365)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:102)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.common.netty.OpenChannelsHandler.handleUpstream(OpenChannelsHandler.java:75)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireChannelDisconnected(Channels.java:396)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.close(AbstractNioWorker.java:360)
+	at org.jboss.netty.channel.socket.nio.NioServerSocketPipelineSink.handleAcceptedSocket(NioServerSocketPipelineSink.java:81)
+	at org.jboss.netty.channel.socket.nio.NioServerSocketPipelineSink.eventSunk(NioServerSocketPipelineSink.java:36)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendDownstream(DefaultChannelPipeline.java:779)
+	at org.jboss.netty.handler.codec.oneone.OneToOneEncoder.handleDownstream(OneToOneEncoder.java:54)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:591)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendDownstream(DefaultChannelPipeline.java:784)
+	at org.jboss.netty.channel.SimpleChannelHandler.closeRequested(SimpleChannelHandler.java:334)
+	at org.jboss.netty.channel.SimpleChannelHandler.handleDownstream(SimpleChannelHandler.java:260)
+	at org.elasticsearch.http.netty.pipelining.HttpPipeliningHandler.handleDownstream(HttpPipeliningHandler.java:105)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:591)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendDownstream(DefaultChannelPipeline.java:582)
+	at org.jboss.netty.channel.Channels.close(Channels.java:812)
+	at org.jboss.netty.channel.AbstractChannel.close(AbstractChannel.java:205)
+	at org.elasticsearch.http.netty.NettyHttpServerTransport.exceptionCaught(NettyHttpServerTransport.java:467)
+	at org.elasticsearch.http.netty.HttpRequestHandler.exceptionCaught(HttpRequestHandler.java:67)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:112)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.SimpleChannelHandler.exceptionCaught(SimpleChannelHandler.java:156)
+	at org.jboss.netty.channel.SimpleChannelHandler.handleUpstream(SimpleChannelHandler.java:130)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.exceptionCaught(SimpleChannelUpstreamHandler.java:153)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:112)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.exceptionCaught(SimpleChannelUpstreamHandler.java:153)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:112)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.exceptionCaught(FrameDecoder.java:377)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:112)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.common.netty.OpenChannelsHandler.handleUpstream(OpenChannelsHandler.java:75)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireExceptionCaught(Channels.java:525)
+	at org.jboss.netty.channel.AbstractChannelSink.exceptionCaught(AbstractChannelSink.java:48)
+	at org.jboss.netty.channel.DefaultChannelPipeline.notifyHandlerException(DefaultChannelPipeline.java:658)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:566)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.common.netty.OpenChannelsHandler.handleUpstream(OpenChannelsHandler.java:75)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2017-09-19 16:27:50,618][INFO ][node                     ] [node-0] stopping ...
+[2017-09-19 16:27:50,660][INFO ][node                     ] [node-0] stopped
+[2017-09-19 16:27:50,660][INFO ][node                     ] [node-0] closing ...
+[2017-09-19 16:27:50,665][INFO ][node                     ] [node-0] closed
+[2017-09-19 16:28:25,924][INFO ][node                     ] [node-0] version[2.4.1], pid[30173], build[c67dc32/2016-09-27T18:57:55Z]
+[2017-09-19 16:28:25,925][INFO ][node                     ] [node-0] initializing ...
+[2017-09-19 16:28:26,689][INFO ][com.floragunn.searchguard.ssl.SearchGuardSSLPlugin] Search Guard 2 plugin also available
+[2017-09-19 16:28:26,696][INFO ][com.floragunn.searchguard.SearchGuardPlugin] Clustername: kirk
+[2017-09-19 16:28:26,696][INFO ][com.floragunn.searchguard.SearchGuardPlugin] Node [node-0] is a transportClient: false/tribeNode: false/tribeNodeClient: false
+[2017-09-19 16:28:26,697][INFO ][plugins                  ] [node-0] modules [reindex, lang-expression, lang-groovy], plugins [search-guard-ssl, search-guard-2], sites []
+[2017-09-19 16:28:26,725][INFO ][env                      ] [node-0] using [1] data paths, mounts [[/ (/dev/sda1)]], net usable_space [403.9gb], net total_space [450.4gb], spins? [possibly], types [ext4]
+[2017-09-19 16:28:26,726][INFO ][env                      ] [node-0] heap size [1007.3mb], compressed ordinary object pointers [true]
+[2017-09-19 16:28:26,778][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] Open SSL not available (this is not an error, we simply fallback to built-in JDK SSL) because of java.lang.ClassNotFoundException: org.apache.tomcat.jni.SSL
+[2017-09-19 16:28:26,778][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] Open SSL not available (this is not an error, we simply fallback to built-in JDK SSL) because of java.lang.ClassNotFoundException: org.apache.tomcat.jni.SSL
+[2017-09-19 16:28:26,778][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.version: 1.8.0_131
+[2017-09-19 16:28:26,778][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.vendor: Oracle Corporation
+[2017-09-19 16:28:26,778][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.vm.specification.version: 1.8
+[2017-09-19 16:28:26,778][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.vm.specification.vendor: Oracle Corporation
+[2017-09-19 16:28:26,778][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.vm.specification.name: Java Virtual Machine Specification
+[2017-09-19 16:28:26,778][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.vm.name: OpenJDK 64-Bit Server VM
+[2017-09-19 16:28:26,779][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.vm.vendor: Oracle Corporation
+[2017-09-19 16:28:26,779][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.specification.version: 1.8
+[2017-09-19 16:28:26,779][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.specification.vendor: Oracle Corporation
+[2017-09-19 16:28:26,779][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.specification.name: Java Platform API Specification
+[2017-09-19 16:28:26,779][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] os.name: Linux
+[2017-09-19 16:28:26,779][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] os.arch: amd64
+[2017-09-19 16:28:26,779][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] os.version: 4.4.0-93-generic
+[2017-09-19 16:28:26,993][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] JVM supports the following 82 ciphers for https [TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV, TLS_DH_anon_WITH_AES_256_GCM_SHA384, TLS_DH_anon_WITH_AES_128_GCM_SHA256, TLS_DH_anon_WITH_AES_256_CBC_SHA256, TLS_ECDH_anon_WITH_AES_256_CBC_SHA, TLS_DH_anon_WITH_AES_256_CBC_SHA, TLS_DH_anon_WITH_AES_128_CBC_SHA256, TLS_ECDH_anon_WITH_AES_128_CBC_SHA, TLS_DH_anon_WITH_AES_128_CBC_SHA, TLS_ECDH_anon_WITH_3DES_EDE_CBC_SHA, SSL_DH_anon_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_DES_CBC_SHA, SSL_DHE_RSA_WITH_DES_CBC_SHA, SSL_DHE_DSS_WITH_DES_CBC_SHA, SSL_DH_anon_WITH_DES_CBC_SHA, SSL_RSA_EXPORT_WITH_DES40_CBC_SHA, SSL_DHE_RSA_EXPORT_WITH_DES40_CBC_SHA, SSL_DHE_DSS_EXPORT_WITH_DES40_CBC_SHA, SSL_DH_anon_EXPORT_WITH_DES40_CBC_SHA, TLS_RSA_WITH_NULL_SHA256, TLS_ECDHE_ECDSA_WITH_NULL_SHA, TLS_ECDHE_RSA_WITH_NULL_SHA, SSL_RSA_WITH_NULL_SHA, TLS_ECDH_ECDSA_WITH_NULL_SHA, TLS_ECDH_RSA_WITH_NULL_SHA, TLS_ECDH_anon_WITH_NULL_SHA, SSL_RSA_WITH_NULL_MD5, TLS_KRB5_WITH_3DES_EDE_CBC_SHA, TLS_KRB5_WITH_3DES_EDE_CBC_MD5, TLS_KRB5_WITH_DES_CBC_SHA, TLS_KRB5_WITH_DES_CBC_MD5, TLS_KRB5_EXPORT_WITH_DES_CBC_40_SHA, TLS_KRB5_EXPORT_WITH_DES_CBC_40_MD5]
+[2017-09-19 16:28:27,015][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] JVM supports the following 82 ciphers for transport [TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV, TLS_DH_anon_WITH_AES_256_GCM_SHA384, TLS_DH_anon_WITH_AES_128_GCM_SHA256, TLS_DH_anon_WITH_AES_256_CBC_SHA256, TLS_ECDH_anon_WITH_AES_256_CBC_SHA, TLS_DH_anon_WITH_AES_256_CBC_SHA, TLS_DH_anon_WITH_AES_128_CBC_SHA256, TLS_ECDH_anon_WITH_AES_128_CBC_SHA, TLS_DH_anon_WITH_AES_128_CBC_SHA, TLS_ECDH_anon_WITH_3DES_EDE_CBC_SHA, SSL_DH_anon_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_DES_CBC_SHA, SSL_DHE_RSA_WITH_DES_CBC_SHA, SSL_DHE_DSS_WITH_DES_CBC_SHA, SSL_DH_anon_WITH_DES_CBC_SHA, SSL_RSA_EXPORT_WITH_DES40_CBC_SHA, SSL_DHE_RSA_EXPORT_WITH_DES40_CBC_SHA, SSL_DHE_DSS_EXPORT_WITH_DES40_CBC_SHA, SSL_DH_anon_EXPORT_WITH_DES40_CBC_SHA, TLS_RSA_WITH_NULL_SHA256, TLS_ECDHE_ECDSA_WITH_NULL_SHA, TLS_ECDHE_RSA_WITH_NULL_SHA, SSL_RSA_WITH_NULL_SHA, TLS_ECDH_ECDSA_WITH_NULL_SHA, TLS_ECDH_RSA_WITH_NULL_SHA, TLS_ECDH_anon_WITH_NULL_SHA, SSL_RSA_WITH_NULL_MD5, TLS_KRB5_WITH_3DES_EDE_CBC_SHA, TLS_KRB5_WITH_3DES_EDE_CBC_MD5, TLS_KRB5_WITH_DES_CBC_SHA, TLS_KRB5_WITH_DES_CBC_MD5, TLS_KRB5_EXPORT_WITH_DES_CBC_40_SHA, TLS_KRB5_EXPORT_WITH_DES_CBC_40_MD5]
+[2017-09-19 16:28:27,016][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] Config directory is /home/lxm/tlstest/elasticsearch-2.4.1/config/, from there the key- and truststore files are resolved relatively
+[2017-09-19 16:28:27,097][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] HTTPS client auth mode OPTIONAL
+[2017-09-19 16:28:27,103][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] sslTransportClientProvider:JDK with ciphers [TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256]
+[2017-09-19 16:28:27,104][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] sslTransportServerProvider:JDK with ciphers [TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256]
+[2017-09-19 16:28:27,104][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] sslHTTPProvider:JDK with ciphers [TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256]
+[2017-09-19 16:28:27,104][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] sslTransport protocols [TLSv1.2, TLSv1.1]
+[2017-09-19 16:28:27,104][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] sslHTTP protocols [TLSv1.2, TLSv1.1]
+[2017-09-19 16:28:27,329][INFO ][http                     ] [node-0] Using [org.elasticsearch.http.netty.NettyHttpServerTransport] as http transport, overridden by [search-guard2]
+[2017-09-19 16:28:27,422][INFO ][com.floragunn.searchguard.configuration.ConfigurationModule] FLS/DLS valve not bound (noop)
+[2017-09-19 16:28:27,423][INFO ][com.floragunn.searchguard.configuration.ConfigurationModule] Privileges interceptor not bound (noop)
+[2017-09-19 16:28:27,426][INFO ][com.floragunn.searchguard.auditlog.AuditLogModule] Auditlog not available
+[2017-09-19 16:28:27,518][INFO ][transport                ] [node-0] Using [com.floragunn.searchguard.transport.SearchGuardTransportService] as transport service, overridden by [search-guard2]
+[2017-09-19 16:28:27,518][INFO ][transport                ] [node-0] Using [com.floragunn.searchguard.ssl.transport.SearchGuardSSLNettyTransport] as transport, overridden by [search-guard-ssl]
+[2017-09-19 16:28:29,741][INFO ][node                     ] [node-0] initialized
+[2017-09-19 16:28:29,741][INFO ][node                     ] [node-0] starting ...
+[2017-09-19 16:28:29,824][INFO ][com.floragunn.searchguard.transport.SearchGuardTransportService] [node-0] publish_address {10.134.102.140:9300}, bound_addresses {[::]:9300}
+[2017-09-19 16:28:29,828][INFO ][com.floragunn.searchguard.action.configupdate.TransportConfigUpdateAction] [node-0] Check if searchguard index exists ...
+[2017-09-19 16:28:29,837][DEBUG][action.admin.indices.exists.indices] [node-0] no known master node, scheduling a retry
+[2017-09-19 16:28:29,844][INFO ][discovery                ] [node-0] kirk/KCCsfFIkQgGoWpvfd6Hzyw
+[2017-09-19 16:28:32,971][WARN ][netty.channel.DefaultChannelPipeline] An exception was thrown by a user handler while handling an exception event ([id: 0xad110814, /127.0.0.1:36896 => /127.0.0.1:9300] EXCEPTION: java.io.IOException: 连接被对方重设)
+java.security.AccessControlException: access denied ("java.lang.RuntimePermission" "accessClassInPackage.sun.nio.ch")
+	at java.security.AccessControlContext.checkPermission(AccessControlContext.java:472)
+	at java.security.AccessController.checkPermission(AccessController.java:884)
+	at java.lang.SecurityManager.checkPermission(SecurityManager.java:549)
+	at java.lang.SecurityManager.checkPackageAccess(SecurityManager.java:1564)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:315)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.jboss.netty.handler.ssl.SslHandler.ignoreException(SslHandler.java:674)
+	at org.jboss.netty.handler.ssl.SslHandler.exceptionCaught(SslHandler.java:620)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:112)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireExceptionCaught(Channels.java:525)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:74)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2017-09-19 16:28:32,979][WARN ][netty.channel.DefaultChannelPipeline] An exception was thrown by a user handler while handling an exception event ([id: 0x272af02c, /0:0:0:0:0:0:0:1:37868 => /0:0:0:0:0:0:0:1:9300] EXCEPTION: java.io.IOException: 连接被对方重设)
+java.security.AccessControlException: access denied ("java.lang.RuntimePermission" "accessClassInPackage.sun.nio.ch")
+	at java.security.AccessControlContext.checkPermission(AccessControlContext.java:472)
+	at java.security.AccessController.checkPermission(AccessController.java:884)
+	at java.lang.SecurityManager.checkPermission(SecurityManager.java:549)
+	at java.lang.SecurityManager.checkPackageAccess(SecurityManager.java:1564)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:315)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.jboss.netty.handler.ssl.SslHandler.ignoreException(SslHandler.java:674)
+	at org.jboss.netty.handler.ssl.SslHandler.exceptionCaught(SslHandler.java:620)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:112)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireExceptionCaught(Channels.java:525)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:74)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2017-09-19 16:28:32,992][INFO ][cluster.service          ] [node-0] new_master {node-0}{KCCsfFIkQgGoWpvfd6Hzyw}{10.134.102.140}{10.134.102.140:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2017-09-19 16:28:33,014][INFO ][http                     ] [node-0] publish_address {10.134.102.140:9200}, bound_addresses {[::]:9200}
+[2017-09-19 16:28:33,014][INFO ][node                     ] [node-0] started
+[2017-09-19 16:28:33,272][INFO ][gateway                  ] [node-0] recovered [1] indices into cluster_state
+[2017-09-19 16:28:33,926][INFO ][cluster.routing.allocation] [node-0] Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[searchguard][0]] ...]).
+[2017-09-19 16:28:34,039][INFO ][com.floragunn.searchguard.action.configupdate.TransportConfigUpdateAction] [node-0] Node 'node-0' initialized
+[2017-09-19 16:28:42,036][WARN ][netty.channel.DefaultChannelPipeline] An exception was thrown by a user handler while handling an exception event ([id: 0x58fa6928, /127.0.0.1:59842 => /127.0.0.1:9200] EXCEPTION: java.io.IOException: 连接被对方重设)
+java.security.AccessControlException: access denied ("java.lang.RuntimePermission" "accessClassInPackage.sun.nio.ch")
+	at java.security.AccessControlContext.checkPermission(AccessControlContext.java:472)
+	at java.security.AccessController.checkPermission(AccessController.java:884)
+	at java.lang.SecurityManager.checkPermission(SecurityManager.java:549)
+	at java.lang.SecurityManager.checkPackageAccess(SecurityManager.java:1564)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:315)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.jboss.netty.handler.ssl.SslHandler.ignoreException(SslHandler.java:674)
+	at org.jboss.netty.handler.ssl.SslHandler.exceptionCaught(SslHandler.java:620)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:112)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireExceptionCaught(Channels.java:525)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:74)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2017-09-19 16:29:15,951][WARN ][netty.channel.DefaultChannelPipeline] An exception was thrown by a user handler while handling an exception event ([id: 0x8bc67765, /127.0.0.1:59844 => /127.0.0.1:9200] EXCEPTION: java.io.IOException: 连接被对方重设)
+java.security.AccessControlException: access denied ("java.lang.RuntimePermission" "accessClassInPackage.sun.nio.ch")
+	at java.security.AccessControlContext.checkPermission(AccessControlContext.java:472)
+	at java.security.AccessController.checkPermission(AccessController.java:884)
+	at java.lang.SecurityManager.checkPermission(SecurityManager.java:549)
+	at java.lang.SecurityManager.checkPackageAccess(SecurityManager.java:1564)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:315)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.jboss.netty.handler.ssl.SslHandler.ignoreException(SslHandler.java:674)
+	at org.jboss.netty.handler.ssl.SslHandler.exceptionCaught(SslHandler.java:620)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:112)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireExceptionCaught(Channels.java:525)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:74)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2017-09-19 16:33:00,788][INFO ][node                     ] [node-0] stopping ...
+[2017-09-19 16:33:00,824][INFO ][node                     ] [node-0] stopped
+[2017-09-19 16:33:00,824][INFO ][node                     ] [node-0] closing ...
+[2017-09-19 16:33:00,830][INFO ][node                     ] [node-0] closed
+[2017-09-19 16:33:29,896][INFO ][node                     ] [node-0] version[2.4.1], pid[30419], build[c67dc32/2016-09-27T18:57:55Z]
+[2017-09-19 16:33:29,897][INFO ][node                     ] [node-0] initializing ...
+[2017-09-19 16:33:30,673][INFO ][com.floragunn.searchguard.ssl.SearchGuardSSLPlugin] Search Guard 2 plugin also available
+[2017-09-19 16:33:30,681][INFO ][com.floragunn.searchguard.SearchGuardPlugin] Clustername: kirk
+[2017-09-19 16:33:30,682][INFO ][com.floragunn.searchguard.SearchGuardPlugin] Node [node-0] is a transportClient: false/tribeNode: false/tribeNodeClient: false
+[2017-09-19 16:33:30,682][INFO ][plugins                  ] [node-0] modules [reindex, lang-expression, lang-groovy], plugins [search-guard-ssl, search-guard-2], sites []
+[2017-09-19 16:33:30,713][INFO ][env                      ] [node-0] using [1] data paths, mounts [[/ (/dev/sda1)]], net usable_space [403.9gb], net total_space [450.4gb], spins? [possibly], types [ext4]
+[2017-09-19 16:33:30,714][INFO ][env                      ] [node-0] heap size [1007.3mb], compressed ordinary object pointers [true]
+[2017-09-19 16:33:30,784][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] Open SSL not available (this is not an error, we simply fallback to built-in JDK SSL) because of java.lang.ClassNotFoundException: org.apache.tomcat.jni.SSL
+[2017-09-19 16:33:30,784][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.version: 1.8.0_131
+[2017-09-19 16:33:30,784][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.vendor: Oracle Corporation
+[2017-09-19 16:33:30,784][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.vm.specification.version: 1.8
+[2017-09-19 16:33:30,784][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.vm.specification.vendor: Oracle Corporation
+[2017-09-19 16:33:30,784][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.vm.specification.name: Java Virtual Machine Specification
+[2017-09-19 16:33:30,784][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.vm.name: OpenJDK 64-Bit Server VM
+[2017-09-19 16:33:30,785][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.vm.vendor: Oracle Corporation
+[2017-09-19 16:33:30,785][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.specification.version: 1.8
+[2017-09-19 16:33:30,785][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.specification.vendor: Oracle Corporation
+[2017-09-19 16:33:30,785][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.specification.name: Java Platform API Specification
+[2017-09-19 16:33:30,785][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] os.name: Linux
+[2017-09-19 16:33:30,785][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] os.arch: amd64
+[2017-09-19 16:33:30,785][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] os.version: 4.4.0-93-generic
+[2017-09-19 16:33:31,139][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] JVM supports the following 82 ciphers for https [TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV, TLS_DH_anon_WITH_AES_256_GCM_SHA384, TLS_DH_anon_WITH_AES_128_GCM_SHA256, TLS_DH_anon_WITH_AES_256_CBC_SHA256, TLS_ECDH_anon_WITH_AES_256_CBC_SHA, TLS_DH_anon_WITH_AES_256_CBC_SHA, TLS_DH_anon_WITH_AES_128_CBC_SHA256, TLS_ECDH_anon_WITH_AES_128_CBC_SHA, TLS_DH_anon_WITH_AES_128_CBC_SHA, TLS_ECDH_anon_WITH_3DES_EDE_CBC_SHA, SSL_DH_anon_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_DES_CBC_SHA, SSL_DHE_RSA_WITH_DES_CBC_SHA, SSL_DHE_DSS_WITH_DES_CBC_SHA, SSL_DH_anon_WITH_DES_CBC_SHA, SSL_RSA_EXPORT_WITH_DES40_CBC_SHA, SSL_DHE_RSA_EXPORT_WITH_DES40_CBC_SHA, SSL_DHE_DSS_EXPORT_WITH_DES40_CBC_SHA, SSL_DH_anon_EXPORT_WITH_DES40_CBC_SHA, TLS_RSA_WITH_NULL_SHA256, TLS_ECDHE_ECDSA_WITH_NULL_SHA, TLS_ECDHE_RSA_WITH_NULL_SHA, SSL_RSA_WITH_NULL_SHA, TLS_ECDH_ECDSA_WITH_NULL_SHA, TLS_ECDH_RSA_WITH_NULL_SHA, TLS_ECDH_anon_WITH_NULL_SHA, SSL_RSA_WITH_NULL_MD5, TLS_KRB5_WITH_3DES_EDE_CBC_SHA, TLS_KRB5_WITH_3DES_EDE_CBC_MD5, TLS_KRB5_WITH_DES_CBC_SHA, TLS_KRB5_WITH_DES_CBC_MD5, TLS_KRB5_EXPORT_WITH_DES_CBC_40_SHA, TLS_KRB5_EXPORT_WITH_DES_CBC_40_MD5]
+[2017-09-19 16:33:31,161][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] JVM supports the following 82 ciphers for transport [TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV, TLS_DH_anon_WITH_AES_256_GCM_SHA384, TLS_DH_anon_WITH_AES_128_GCM_SHA256, TLS_DH_anon_WITH_AES_256_CBC_SHA256, TLS_ECDH_anon_WITH_AES_256_CBC_SHA, TLS_DH_anon_WITH_AES_256_CBC_SHA, TLS_DH_anon_WITH_AES_128_CBC_SHA256, TLS_ECDH_anon_WITH_AES_128_CBC_SHA, TLS_DH_anon_WITH_AES_128_CBC_SHA, TLS_ECDH_anon_WITH_3DES_EDE_CBC_SHA, SSL_DH_anon_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_DES_CBC_SHA, SSL_DHE_RSA_WITH_DES_CBC_SHA, SSL_DHE_DSS_WITH_DES_CBC_SHA, SSL_DH_anon_WITH_DES_CBC_SHA, SSL_RSA_EXPORT_WITH_DES40_CBC_SHA, SSL_DHE_RSA_EXPORT_WITH_DES40_CBC_SHA, SSL_DHE_DSS_EXPORT_WITH_DES40_CBC_SHA, SSL_DH_anon_EXPORT_WITH_DES40_CBC_SHA, TLS_RSA_WITH_NULL_SHA256, TLS_ECDHE_ECDSA_WITH_NULL_SHA, TLS_ECDHE_RSA_WITH_NULL_SHA, SSL_RSA_WITH_NULL_SHA, TLS_ECDH_ECDSA_WITH_NULL_SHA, TLS_ECDH_RSA_WITH_NULL_SHA, TLS_ECDH_anon_WITH_NULL_SHA, SSL_RSA_WITH_NULL_MD5, TLS_KRB5_WITH_3DES_EDE_CBC_SHA, TLS_KRB5_WITH_3DES_EDE_CBC_MD5, TLS_KRB5_WITH_DES_CBC_SHA, TLS_KRB5_WITH_DES_CBC_MD5, TLS_KRB5_EXPORT_WITH_DES_CBC_40_SHA, TLS_KRB5_EXPORT_WITH_DES_CBC_40_MD5]
+[2017-09-19 16:33:31,162][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] Config directory is /home/lxm/tlstest/elasticsearch-2.4.1/config/, from there the key- and truststore files are resolved relatively
+[2017-09-19 16:33:31,254][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] sslTransportClientProvider:JDK with ciphers [TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256]
+[2017-09-19 16:33:31,254][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] sslTransportServerProvider:JDK with ciphers [TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256]
+[2017-09-19 16:33:31,254][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] sslHTTPProvider:null with ciphers []
+[2017-09-19 16:33:31,255][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] sslTransport protocols [TLSv1.2, TLSv1.1]
+[2017-09-19 16:33:31,255][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] sslHTTP protocols [TLSv1.2, TLSv1.1]
+[2017-09-19 16:33:31,546][INFO ][com.floragunn.searchguard.configuration.ConfigurationModule] FLS/DLS valve not bound (noop)
+[2017-09-19 16:33:31,546][INFO ][com.floragunn.searchguard.configuration.ConfigurationModule] Privileges interceptor not bound (noop)
+[2017-09-19 16:33:31,549][INFO ][com.floragunn.searchguard.auditlog.AuditLogModule] Auditlog not available
+[2017-09-19 16:33:31,692][INFO ][transport                ] [node-0] Using [com.floragunn.searchguard.transport.SearchGuardTransportService] as transport service, overridden by [search-guard2]
+[2017-09-19 16:33:31,692][INFO ][transport                ] [node-0] Using [com.floragunn.searchguard.ssl.transport.SearchGuardSSLNettyTransport] as transport, overridden by [search-guard-ssl]
+[2017-09-19 16:33:33,987][INFO ][node                     ] [node-0] initialized
+[2017-09-19 16:33:33,987][INFO ][node                     ] [node-0] starting ...
+[2017-09-19 16:33:34,140][INFO ][com.floragunn.searchguard.transport.SearchGuardTransportService] [node-0] publish_address {10.134.102.140:9300}, bound_addresses {[::]:9300}
+[2017-09-19 16:33:34,145][INFO ][com.floragunn.searchguard.action.configupdate.TransportConfigUpdateAction] [node-0] Check if searchguard index exists ...
+[2017-09-19 16:33:34,153][DEBUG][action.admin.indices.exists.indices] [node-0] no known master node, scheduling a retry
+[2017-09-19 16:33:34,162][INFO ][discovery                ] [node-0] kirk/p0h__mplQeShYaE__pl19A
+[2017-09-19 16:33:37,305][WARN ][netty.channel.DefaultChannelPipeline] An exception was thrown by a user handler while handling an exception event ([id: 0x1d11698b, /0:0:0:0:0:0:0:1:38306 => /0:0:0:0:0:0:0:1:9300] EXCEPTION: java.io.IOException: 连接被对方重设)
+java.security.AccessControlException: access denied ("java.lang.RuntimePermission" "accessClassInPackage.sun.nio.ch")
+	at java.security.AccessControlContext.checkPermission(AccessControlContext.java:472)
+	at java.security.AccessController.checkPermission(AccessController.java:884)
+	at java.lang.SecurityManager.checkPermission(SecurityManager.java:549)
+	at java.lang.SecurityManager.checkPackageAccess(SecurityManager.java:1564)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:315)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.jboss.netty.handler.ssl.SslHandler.ignoreException(SslHandler.java:674)
+	at org.jboss.netty.handler.ssl.SslHandler.exceptionCaught(SslHandler.java:620)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:112)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireExceptionCaught(Channels.java:525)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:74)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2017-09-19 16:33:37,311][INFO ][cluster.service          ] [node-0] new_master {node-0}{p0h__mplQeShYaE__pl19A}{10.134.102.140}{10.134.102.140:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2017-09-19 16:33:37,357][INFO ][http                     ] [node-0] publish_address {10.134.102.140:9200}, bound_addresses {[::]:9200}
+[2017-09-19 16:33:37,358][INFO ][node                     ] [node-0] started
+[2017-09-19 16:33:37,494][INFO ][gateway                  ] [node-0] recovered [1] indices into cluster_state
+[2017-09-19 16:33:38,205][INFO ][cluster.routing.allocation] [node-0] Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[searchguard][0]] ...]).
+[2017-09-19 16:33:38,317][INFO ][com.floragunn.searchguard.action.configupdate.TransportConfigUpdateAction] [node-0] Node 'node-0' initialized
+[2017-09-19 16:38:57,733][INFO ][node                     ] [node-0] stopping ...
+[2017-09-19 16:38:57,773][INFO ][node                     ] [node-0] stopped
+[2017-09-19 16:38:57,773][INFO ][node                     ] [node-0] closing ...
+[2017-09-19 16:38:57,780][INFO ][node                     ] [node-0] closed
+[2017-09-19 16:40:07,863][INFO ][node                     ] [node-0] version[2.4.1], pid[30596], build[c67dc32/2016-09-27T18:57:55Z]
+[2017-09-19 16:40:07,864][INFO ][node                     ] [node-0] initializing ...
+[2017-09-19 16:40:08,697][INFO ][com.floragunn.searchguard.ssl.SearchGuardSSLPlugin] Search Guard 2 plugin also available
+[2017-09-19 16:40:08,704][INFO ][com.floragunn.searchguard.SearchGuardPlugin] Clustername: kirk
+[2017-09-19 16:40:08,705][INFO ][com.floragunn.searchguard.SearchGuardPlugin] Node [node-0] is a transportClient: false/tribeNode: false/tribeNodeClient: false
+[2017-09-19 16:40:08,706][INFO ][plugins                  ] [node-0] modules [reindex, lang-expression, lang-groovy], plugins [search-guard-ssl, search-guard-2], sites []
+[2017-09-19 16:40:08,736][INFO ][env                      ] [node-0] using [1] data paths, mounts [[/ (/dev/sda1)]], net usable_space [403.9gb], net total_space [450.4gb], spins? [possibly], types [ext4]
+[2017-09-19 16:40:08,737][INFO ][env                      ] [node-0] heap size [1007.3mb], compressed ordinary object pointers [true]
+[2017-09-19 16:40:08,787][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] Open SSL not available (this is not an error, we simply fallback to built-in JDK SSL) because of java.lang.ClassNotFoundException: org.apache.tomcat.jni.SSL
+[2017-09-19 16:40:08,787][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] Open SSL not available (this is not an error, we simply fallback to built-in JDK SSL) because of java.lang.ClassNotFoundException: org.apache.tomcat.jni.SSL
+[2017-09-19 16:40:08,788][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.version: 1.8.0_131
+[2017-09-19 16:40:08,788][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.vendor: Oracle Corporation
+[2017-09-19 16:40:08,788][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.vm.specification.version: 1.8
+[2017-09-19 16:40:08,788][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.vm.specification.vendor: Oracle Corporation
+[2017-09-19 16:40:08,788][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.vm.specification.name: Java Virtual Machine Specification
+[2017-09-19 16:40:08,788][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.vm.name: OpenJDK 64-Bit Server VM
+[2017-09-19 16:40:08,788][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.vm.vendor: Oracle Corporation
+[2017-09-19 16:40:08,788][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.specification.version: 1.8
+[2017-09-19 16:40:08,788][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.specification.vendor: Oracle Corporation
+[2017-09-19 16:40:08,788][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] java.specification.name: Java Platform API Specification
+[2017-09-19 16:40:08,788][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] os.name: Linux
+[2017-09-19 16:40:08,788][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] os.arch: amd64
+[2017-09-19 16:40:08,788][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] os.version: 4.4.0-93-generic
+[2017-09-19 16:40:08,998][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] JVM supports the following 82 ciphers for https [TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV, TLS_DH_anon_WITH_AES_256_GCM_SHA384, TLS_DH_anon_WITH_AES_128_GCM_SHA256, TLS_DH_anon_WITH_AES_256_CBC_SHA256, TLS_ECDH_anon_WITH_AES_256_CBC_SHA, TLS_DH_anon_WITH_AES_256_CBC_SHA, TLS_DH_anon_WITH_AES_128_CBC_SHA256, TLS_ECDH_anon_WITH_AES_128_CBC_SHA, TLS_DH_anon_WITH_AES_128_CBC_SHA, TLS_ECDH_anon_WITH_3DES_EDE_CBC_SHA, SSL_DH_anon_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_DES_CBC_SHA, SSL_DHE_RSA_WITH_DES_CBC_SHA, SSL_DHE_DSS_WITH_DES_CBC_SHA, SSL_DH_anon_WITH_DES_CBC_SHA, SSL_RSA_EXPORT_WITH_DES40_CBC_SHA, SSL_DHE_RSA_EXPORT_WITH_DES40_CBC_SHA, SSL_DHE_DSS_EXPORT_WITH_DES40_CBC_SHA, SSL_DH_anon_EXPORT_WITH_DES40_CBC_SHA, TLS_RSA_WITH_NULL_SHA256, TLS_ECDHE_ECDSA_WITH_NULL_SHA, TLS_ECDHE_RSA_WITH_NULL_SHA, SSL_RSA_WITH_NULL_SHA, TLS_ECDH_ECDSA_WITH_NULL_SHA, TLS_ECDH_RSA_WITH_NULL_SHA, TLS_ECDH_anon_WITH_NULL_SHA, SSL_RSA_WITH_NULL_MD5, TLS_KRB5_WITH_3DES_EDE_CBC_SHA, TLS_KRB5_WITH_3DES_EDE_CBC_MD5, TLS_KRB5_WITH_DES_CBC_SHA, TLS_KRB5_WITH_DES_CBC_MD5, TLS_KRB5_EXPORT_WITH_DES_CBC_40_SHA, TLS_KRB5_EXPORT_WITH_DES_CBC_40_MD5]
+[2017-09-19 16:40:09,013][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] JVM supports the following 82 ciphers for transport [TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV, TLS_DH_anon_WITH_AES_256_GCM_SHA384, TLS_DH_anon_WITH_AES_128_GCM_SHA256, TLS_DH_anon_WITH_AES_256_CBC_SHA256, TLS_ECDH_anon_WITH_AES_256_CBC_SHA, TLS_DH_anon_WITH_AES_256_CBC_SHA, TLS_DH_anon_WITH_AES_128_CBC_SHA256, TLS_ECDH_anon_WITH_AES_128_CBC_SHA, TLS_DH_anon_WITH_AES_128_CBC_SHA, TLS_ECDH_anon_WITH_3DES_EDE_CBC_SHA, SSL_DH_anon_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_DES_CBC_SHA, SSL_DHE_RSA_WITH_DES_CBC_SHA, SSL_DHE_DSS_WITH_DES_CBC_SHA, SSL_DH_anon_WITH_DES_CBC_SHA, SSL_RSA_EXPORT_WITH_DES40_CBC_SHA, SSL_DHE_RSA_EXPORT_WITH_DES40_CBC_SHA, SSL_DHE_DSS_EXPORT_WITH_DES40_CBC_SHA, SSL_DH_anon_EXPORT_WITH_DES40_CBC_SHA, TLS_RSA_WITH_NULL_SHA256, TLS_ECDHE_ECDSA_WITH_NULL_SHA, TLS_ECDHE_RSA_WITH_NULL_SHA, SSL_RSA_WITH_NULL_SHA, TLS_ECDH_ECDSA_WITH_NULL_SHA, TLS_ECDH_RSA_WITH_NULL_SHA, TLS_ECDH_anon_WITH_NULL_SHA, SSL_RSA_WITH_NULL_MD5, TLS_KRB5_WITH_3DES_EDE_CBC_SHA, TLS_KRB5_WITH_3DES_EDE_CBC_MD5, TLS_KRB5_WITH_DES_CBC_SHA, TLS_KRB5_WITH_DES_CBC_MD5, TLS_KRB5_EXPORT_WITH_DES_CBC_40_SHA, TLS_KRB5_EXPORT_WITH_DES_CBC_40_MD5]
+[2017-09-19 16:40:09,015][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] Config directory is /home/lxm/tlstest/elasticsearch-2.4.1/config/, from there the key- and truststore files are resolved relatively
+[2017-09-19 16:40:09,077][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] HTTPS client auth mode OPTIONAL
+[2017-09-19 16:40:09,085][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] sslTransportClientProvider:JDK with ciphers [TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256]
+[2017-09-19 16:40:09,085][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] sslTransportServerProvider:JDK with ciphers [TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256]
+[2017-09-19 16:40:09,085][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] sslHTTPProvider:JDK with ciphers [TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256]
+[2017-09-19 16:40:09,085][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] sslTransport protocols [TLSv1.2, TLSv1.1]
+[2017-09-19 16:40:09,085][INFO ][com.floragunn.searchguard.ssl.DefaultSearchGuardKeyStore] sslHTTP protocols [TLSv1.2, TLSv1.1]
+[2017-09-19 16:40:09,293][INFO ][http                     ] [node-0] Using [org.elasticsearch.http.netty.NettyHttpServerTransport] as http transport, overridden by [search-guard2]
+[2017-09-19 16:40:09,394][INFO ][com.floragunn.searchguard.configuration.ConfigurationModule] FLS/DLS valve not bound (noop)
+[2017-09-19 16:40:09,395][INFO ][com.floragunn.searchguard.configuration.ConfigurationModule] Privileges interceptor not bound (noop)
+[2017-09-19 16:40:09,401][INFO ][com.floragunn.searchguard.auditlog.AuditLogModule] Auditlog not available
+[2017-09-19 16:40:09,511][INFO ][transport                ] [node-0] Using [com.floragunn.searchguard.transport.SearchGuardTransportService] as transport service, overridden by [search-guard2]
+[2017-09-19 16:40:09,511][INFO ][transport                ] [node-0] Using [com.floragunn.searchguard.ssl.transport.SearchGuardSSLNettyTransport] as transport, overridden by [search-guard-ssl]
+[2017-09-19 16:40:12,212][INFO ][node                     ] [node-0] initialized
+[2017-09-19 16:40:12,213][INFO ][node                     ] [node-0] starting ...
+[2017-09-19 16:40:12,389][INFO ][com.floragunn.searchguard.transport.SearchGuardTransportService] [node-0] publish_address {10.134.102.140:9300}, bound_addresses {[::]:9300}
+[2017-09-19 16:40:12,397][INFO ][com.floragunn.searchguard.action.configupdate.TransportConfigUpdateAction] [node-0] Check if searchguard index exists ...
+[2017-09-19 16:40:12,405][DEBUG][action.admin.indices.exists.indices] [node-0] no known master node, scheduling a retry
+[2017-09-19 16:40:12,417][INFO ][discovery                ] [node-0] kirk/vkfccJ9LR_urvp4VIeX3ag
+[2017-09-19 16:40:15,558][WARN ][netty.channel.DefaultChannelPipeline] An exception was thrown by a user handler while handling an exception event ([id: 0x148d0052, /127.0.0.1:37424 => /127.0.0.1:9300] EXCEPTION: java.io.IOException: 连接被对方重设)
+java.security.AccessControlException: access denied ("java.lang.RuntimePermission" "accessClassInPackage.sun.nio.ch")
+	at java.security.AccessControlContext.checkPermission(AccessControlContext.java:472)
+	at java.security.AccessController.checkPermission(AccessController.java:884)
+	at java.lang.SecurityManager.checkPermission(SecurityManager.java:549)
+	at java.lang.SecurityManager.checkPackageAccess(SecurityManager.java:1564)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:315)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.jboss.netty.handler.ssl.SslHandler.ignoreException(SslHandler.java:674)
+	at org.jboss.netty.handler.ssl.SslHandler.exceptionCaught(SslHandler.java:620)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:112)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireExceptionCaught(Channels.java:525)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:74)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2017-09-19 16:40:15,574][INFO ][cluster.service          ] [node-0] new_master {node-0}{vkfccJ9LR_urvp4VIeX3ag}{10.134.102.140}{10.134.102.140:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2017-09-19 16:40:15,569][WARN ][netty.channel.DefaultChannelPipeline] An exception was thrown by a user handler while handling an exception event ([id: 0x557f83ba, /0:0:0:0:0:0:0:1:38398 => /0:0:0:0:0:0:0:1:9300] EXCEPTION: java.io.IOException: 连接被对方重设)
+java.security.AccessControlException: access denied ("java.lang.RuntimePermission" "accessClassInPackage.sun.nio.ch")
+	at java.security.AccessControlContext.checkPermission(AccessControlContext.java:472)
+	at java.security.AccessController.checkPermission(AccessController.java:884)
+	at java.lang.SecurityManager.checkPermission(SecurityManager.java:549)
+	at java.lang.SecurityManager.checkPackageAccess(SecurityManager.java:1564)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:315)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.jboss.netty.handler.ssl.SslHandler.ignoreException(SslHandler.java:674)
+	at org.jboss.netty.handler.ssl.SslHandler.exceptionCaught(SslHandler.java:620)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:112)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireExceptionCaught(Channels.java:525)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:74)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2017-09-19 16:40:15,621][INFO ][http                     ] [node-0] publish_address {10.134.102.140:9200}, bound_addresses {[::]:9200}
+[2017-09-19 16:40:15,624][INFO ][node                     ] [node-0] started
+[2017-09-19 16:40:15,788][INFO ][gateway                  ] [node-0] recovered [1] indices into cluster_state
+[2017-09-19 16:40:16,743][INFO ][cluster.routing.allocation] [node-0] Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[searchguard][0]] ...]).
+[2017-09-19 16:40:16,846][INFO ][com.floragunn.searchguard.action.configupdate.TransportConfigUpdateAction] [node-0] Node 'node-0' initialized
+[2017-09-19 16:41:08,703][INFO ][com.floragunn.searchguard.configuration.PrivilegesEvaluator] No perm match for User [name=spock, roles=[]] [IndexType [index=searchguard, type=*]] [Action [cluster:monitor/health]] [RolesChecked [sg_own_index, sg_public]]
+[2017-09-19 16:41:08,734][WARN ][netty.channel.DefaultChannelPipeline] An exception was thrown by a user handler while handling an exception event ([id: 0xb45e2b82, /127.0.0.1:60374 => /127.0.0.1:9200] EXCEPTION: java.io.IOException: 连接被对方重设)
+java.security.AccessControlException: access denied ("java.lang.RuntimePermission" "accessClassInPackage.sun.nio.ch")
+	at java.security.AccessControlContext.checkPermission(AccessControlContext.java:472)
+	at java.security.AccessController.checkPermission(AccessController.java:884)
+	at java.lang.SecurityManager.checkPermission(SecurityManager.java:549)
+	at java.lang.SecurityManager.checkPackageAccess(SecurityManager.java:1564)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:315)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.jboss.netty.handler.ssl.SslHandler.ignoreException(SslHandler.java:674)
+	at org.jboss.netty.handler.ssl.SslHandler.exceptionCaught(SslHandler.java:620)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:112)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireExceptionCaught(Channels.java:525)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:74)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2017-09-19 16:43:41,240][WARN ][netty.channel.DefaultChannelPipeline] An exception was thrown by a user handler while handling an exception event ([id: 0x0c14a837, /127.0.0.1:60382 => /127.0.0.1:9200] EXCEPTION: java.io.IOException: 连接被对方重设)
+java.security.AccessControlException: access denied ("java.lang.RuntimePermission" "accessClassInPackage.sun.nio.ch")
+	at java.security.AccessControlContext.checkPermission(AccessControlContext.java:472)
+	at java.security.AccessController.checkPermission(AccessController.java:884)
+	at java.lang.SecurityManager.checkPermission(SecurityManager.java:549)
+	at java.lang.SecurityManager.checkPackageAccess(SecurityManager.java:1564)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:315)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.jboss.netty.handler.ssl.SslHandler.ignoreException(SslHandler.java:674)
+	at org.jboss.netty.handler.ssl.SslHandler.exceptionCaught(SslHandler.java:620)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:112)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireExceptionCaught(Channels.java:525)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:74)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[2017-09-19 16:44:41,277][INFO ][node                     ] [node-0] stopping ...
+[2017-09-19 16:44:41,316][INFO ][node                     ] [node-0] stopped
+[2017-09-19 16:44:41,316][INFO ][node                     ] [node-0] closing ...
+[2017-09-19 16:44:41,322][INFO ][node                     ] [node-0] closed
